@@ -10,9 +10,11 @@
 ======================================*/
 
 .cont_row {
-    display: flex;
+    width: fit-content;
+    display: grid;
     padding: 15px 15px 15px 15px;
-    flex-direction: row;
+    gap: 10px;
+    grid-auto-rows: auto;
 }
 
 .cont_row > div {
@@ -32,7 +34,7 @@
 
 .cont_column {
     display: flex;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 0px 15px;
     flex-direction: column;
 }
 
@@ -41,6 +43,29 @@
 }
 
 
+.btn-gray {
+  color: #fff;
+  background-color: #202020;
+  border-color: #202020;
+}
+
+.btn-gray:hover {
+  color: #fff;
+  background-color: #282828;
+  border-color: #282828;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #004B9B;
+  border-color: #004B9B;
+}
+
+.btn-blue:hover {
+  color: #fff;
+  background-color: #006FE6;
+  border-color: #006FE6;
+}
 
 body {
     background-color: #0F0F0F;
