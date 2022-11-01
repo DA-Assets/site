@@ -1,0 +1,410 @@
+{
+  "assets": [
+    {
+      "name": "Figma Converter for Unity",
+      "assetType": 1,
+      "oldVersionDaysCount": 14,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionType": 1,
+          "releaseDate": "Jul 20, 2021",
+          "description": "First release."
+        },
+        {
+          "version": "1.0.2",
+          "versionType": 1,
+          "releaseDate": "Aug 24, 2021",
+          "description": "Fixed a bug when installing an asset from the Package Manager."
+        },
+        {
+          "version": "1.0.3",
+          "versionType": 1,
+          "releaseDate": "Sep 14, 2021",
+          "description": "• Added Modern Procedural UI Kit asset support\n• Added Procedural UI Image asset support\n• Added more examples\n• Updated designer and developer manuals"
+        },
+        {
+          "version": "1.0.5",
+          "versionType": 1,
+          "releaseDate": "Oct 28, 2021",
+          "description": "Fixes '#if UNITY_EDITOR' bug in BetterButton.cs"
+        },
+        {
+          "version": "1.0.6",
+          "versionType": 1,
+          "releaseDate": "Nov 29, 2021",
+          "description": ""
+        },
+        {
+          "version": "1.0.7",
+          "versionType": 1,
+          "releaseDate": "Dec 10, 2021",
+          "description": ""
+        },
+        {
+          "version": "1.0.9",
+          "versionType": 1,
+          "releaseDate": "Jan 15, 2022",
+          "description": ""
+        },
+        {
+          "version": "1.1.0",
+          "versionType": 1,
+          "releaseDate": "Feb 9, 2022",
+          "description": ""
+        },
+        {
+          "version": "1.1.2",
+          "versionType": 1,
+          "releaseDate": "Feb 15, 2022",
+          "description": ""
+        },
+        {
+          "version": "1.1.5",
+          "versionType": 1,
+          "releaseDate": "Mar 8, 2022",
+          "description": ""
+        },
+        {
+          "version": "1.1.7",
+          "versionType": 1,
+          "releaseDate": "Mar 16, 2022",
+          "description": "• Updating manuals\n• Small fixes"
+        },
+        {
+          "version": "1.1.8",
+          "versionType": 1,
+          "releaseDate": "Mar 19, 2022",
+          "description": "• Fixed bug with missing 'Download Project' button"
+        },
+        {
+          "version": "1.2.3",
+          "versionType": 1,
+          "releaseDate": "Apr 5, 2022",
+          "description": "• Autolayout fix\n• Asset UX enhancement"
+        },
+        {
+          "version": "1.2.4",
+          "versionType": 1,
+          "releaseDate": "Apr 11, 2022",
+          "description": "• Adding autolayout alignment support"
+        },
+        {
+          "version": "1.2.5",
+          "versionType": 1,
+          "releaseDate": "Apr 13, 2022",
+          "description": "• Auth fix"
+        },
+        {
+          "version": "1.2.6",
+          "versionType": 1,
+          "releaseDate": "Apr 15, 2022",
+          "description": "• Added HTTP support"
+        },
+        {
+          "version": "1.2.7",
+          "versionType": 1,
+          "releaseDate": "May 4, 2022",
+          "description": "• Added handling of an error with incorrect permissions of the Figma project"
+        },
+        {
+          "version": "1.2.8",
+          "versionType": 1,
+          "releaseDate": "May 23, 2022",
+          "description": "• Fixed import InputField and TextMeshPro-InputField components\n• Updated manuals and examples\n• Changes in BetterButton component:\n    • Added support for TextMeshPro\n    • Fixed assignment of state sprites\n    • Added 'Selected' and 'Pressed' states"
+        },
+        {
+          "version": "1.2.9",
+          "versionType": 1,
+          "releaseDate": "May 31, 2022",
+          "description": "• Added handling of CloudFront error\n• Fixed BetterButton component"
+        },
+        {
+          "version": "1.3.0",
+          "versionType": 0,
+          "releaseDate": "Jun 1, 2022",
+          "description": "• Fixed error in CanvasDrawer.cs"
+        },
+        {
+          "version": "2.0.1",
+          "versionType": 1,
+          "releaseDate": "Nov 3, 2022",
+          "description": "• Improved import process: no need to adapt new layouts in order for them to be imported correctly, very complex frames are imported without problems.\n• Fixed objects positioning issue.\n• Added support for importing objects with shadows - no need to turn off the shadow in Figma, no need to use the TrueShadow asset.\n• Added support for rotated objects.\n• Changed the algorithm for determining common frame elements when importing multiple frames (experimental algorithm).\n• Added support for updating already imported frames - you do not need to remove all objects from the scene to import them again. In case of re-import, the scene will retain the original objects, to which the latest changes from your Figma project will be applied.\n• Added project caching - no need to wait for the project to load on each import if there were no changes in your project. After restarting Unity, the project cache is saved.\n• Fixed issue with assigning non-regular font styles.\n• The 'Custom Prefabs' function has been renamed to 'Design System' and also improved - now the prefabs on the scene are created in the form of prefabs (blue icon), and not in the form of ordinary game objects (gray icon). Added support for nested prefabs.\n• Now you do not need to add a new resolution in the Game tab and set it before importing - this process happens automatically for each imported frame.\n• Added UI manager for easy viewing of frames after import.\n• Added a function to disable sprite compression on import to speed up import.\n• Disabled import of gradients when importing images with MPImage - gradients are imported as sprites, not recreated with an asset, although their colors are carried over and you can enable them.\n• Fixed support for having multiple active FCU asset instances in the scene.\n• Added automatic detection of additional installed assets.\n• The asset code has been completely rewritten, which allows to make technical documentation for it, following which you can make specific changes to the asset that are necessary for your company.\n• Added the ability to move an asset to any project folder.\n• Fixed bugs in localization.\n• Updated manuals.\n• Other minor fixes and improvements."
+        },
+        {
+          "version": "2.0.4",
+          "versionType": 1,
+          "releaseDate": "Nov 17, 2022",
+          "description": "• Added support for Shapes2D asset.\n• Updated 'Problems after import' section in dev manual."
+        },
+        {
+          "version": "2.0.5",
+          "versionType": 0,
+          "releaseDate": "Nov 21, 2022",
+          "description": "• Fixed a bug with the import of some sprites;\n• Fixed import using Shapes2D asset;\n• Fixed manuals.\nRecommended for update."
+        },
+        {
+          "version": "2.0.6",
+          "versionType": 1,
+          "releaseDate": "Nov 24, 2022",
+          "description": "• Added function to convert multiple regular fonts to TextMeshPro fonts at once;\n• Fixed manuals."
+        },
+        {
+          "version": "2.0.7",
+          "versionType": 1,
+          "releaseDate": "Nov 25, 2022",
+          "description": "• Fixed an error when importing an asset in Unity 2019."
+        },
+        {
+          "version": "2.0.9",
+          "versionType": 0,
+          "releaseDate": "Dec 1, 2022",
+          "description": ""
+        },
+        {
+          "version": "3.0.0",
+          "versionType": 2,
+          "releaseDate": "Sep 18, 2023",
+          "description": "Added:\n• Automatic prefab creation for same components. Creating components from existing prefabs during next imports;\n• Automatic downloading of missing fonts from the Google Fonts repository;\n• Automatic coloring of single color sprites to white for color overlay using the Image component;\n• Automatic project backup before each import and prefab creation;\n• RectMask2D support;\n• Import events (for customization, e.g., adding custom scripts to imported components, etc.);\n\nRemoved:\n• Mipmap generation for downloaded sprites (for faster import);\n• FCU_Button script (remains in the asset but is not used, will be replaced with an improved version in future releases);\n• Relative positioning mode (with frame boundaries aligned to the boundaries of the Game tab) has been removed, and now Absolute positioning is used by default (frames are positioned as in the Figma layout);\n\nFixed:\n• Algorithm for identifying identical objects;\n• Many other fixes and improvements;"
+        },
+        {
+          "version": "3.0.1",
+          "versionType": 2,
+          "releaseDate": "Sep 19, 2023",
+          "description": "Fixed:\n• Saving Figma session;\n• TryAdd method on some versions of Unity;\n• Downloading sprites on MacOS."
+        },
+        {
+          "version": "3.0.2",
+          "versionType": 2,
+          "releaseDate": "Sep 21, 2023",
+          "description": "Fixed:\n• Bug with font assignment."
+        },
+        {
+          "version": "3.0.4",
+          "versionType": 2,
+          "releaseDate": "Sep 21, 2023",
+          "description": "Fixed:\n• Text positioning;\n• Getting the download link for the sprite;\n• Converting TextMeshPro fonts;\n• Import using procedural image assets."
+        },
+        {
+          "version": "3.0.5",
+          "versionType": 2,
+          "releaseDate": "Oct 4, 2023",
+          "description": "Changes:\n• Project size limit has been removed.\n• Project download and processing have been accelerated (tested with a project containing 100 frames).\n• Now, to work with the asset, it is necessary to install the Json.NET library.\n• Manual has been updated: information on installing Json.NET via the Package Manager has been added."
+        },
+        {
+          "version": "3.0.6",
+          "versionType": 1,
+          "releaseDate": "Oct 04, 2023",
+          "description": "• Fixed bug with detection of Json.NET on Unity 2022-2023.\n• Fixed bug with project building."
+        },
+        {
+          "version": "3.0.7",
+          "versionType": 2,
+          "releaseDate": "Oct 26, 2023",
+          "description": "Added:\n• RawImage support;\n\nFixed:\n• Positioning of TrueShadow; \n• Enabling/Disabling of TrueShadow; \n• Identification of SDF font names; \n• Destroying of components during project reimport;"
+        },
+        {
+          "version": "3.0.8",
+          "versionType": 0,
+          "releaseDate": "Oct 27, 2023",
+          "description": "Fixed 'Unsupported behaviour' error."
+        },
+        {
+          "version": "3.0.10",
+          "versionType": 2,
+          "releaseDate": "Feb 23, 2024",
+          "description": "Known Issues:\n• Bug with the display of the asset's interface in the settings tab when a TextMeshPro component is selected;\n• Error in asset scripts when attempting to build (you need to delete the asset before building to fix this problem).\n\nAdded:\n• Support for the 'Figma to UI Toolkit Converter' plugin has been added, providing the ability to import layouts from Figma into the UI Toolkit;\n• Support for D.A. Button (formerly 'FCU Button');\n• Support for positioning frames according to the borders of GameView.\n\nChanges:\n• Both manuals have been updated (information on importing sections has been added).\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.0",
+          "versionType": 2,
+          "releaseDate": "Feb 26, 2024",
+          "description": "Added:\n• The ability to select during re-import (when synchronizing an already existing layout with Figma), which individual components within frames will be imported or updated, and which will not.\n• The ability to choose which previously imported objects will be deleted from the scene during import.\n\nUpdated:\n• The 'Layout Updating' section in the 'Manual for developers'."
+        },
+        {
+          "version": "3.1.1",
+          "versionType": 2,
+          "releaseDate": "Feb 29, 2024",
+          "description": "Fixed:\n• Incorrect alpha channel value of the gradient;\n• The distance between gradient points.\n\nChanged:\n• The Shared folder has been moved into a separate assembly."
+        },
+        {
+          "version": "3.1.2",
+          "versionType": 1,
+          "releaseDate": "Mar 05, 2024",
+          "description": "Changed:\n• Improved positioning accuracy for objects with a rotation angle;\n• Added Margin for TextMeshPro objects that have a ContentSizeFitter;\n• Renamed 2 tags for Input Field, updated information in the 'Manual for designers'.\n\nFixed:\n• Error when importing components using the Shapes2D asset;\n• Error in the 'UNITY COMPONENTS' tab;\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.3",
+          "versionType": 1,
+          "releaseDate": "Mar 06, 2024",
+          "description": "Fixed:\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.4",
+          "versionType": 0,
+          "releaseDate": "Mar 12, 2024",
+          "description": "Fixed:\n• A bug that caused the 'Create Prefabs' function to work incorrectly.\n• A bug that prevented the asset from creating prefabs from a previously imported layout after restarting the scene.\n• A performance bug in the 'SyncHelper' components, present in all versions that have a serialized 'hashDataTree' field in the SyncData.cs script. The bug is automatically fixed for all your 'SyncHelper' components when updating the asset."
+        },
+        {
+          "version": "3.1.5",
+          "versionType": 0,
+          "releaseDate": "Mar 22, 2024",
+          "description": "Added:\n• The FcuButton component has been reinstated. Relevant sections in both manuals have been updated.\n• Support for SpriteRenderer.\n\nFixed:\n• Inaccuracies in both manuals."
+        },
+        {
+          "version": "3.1.6",
+          "versionType": 2,
+          "releaseDate": "May 21, 2024",
+          "description": "Added:\n• Support for DTT's Procedural UI asset;\n• Support for RTLTMPro asset;\n\nUpdated:\n• Compatibility with Figma to UITK Converter;\nManuals.\n\nFixed:\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.7",
+          "versionType": 2,
+          "releaseDate": "May 23, 2024",
+          "description": "Added:\n• Support for DTT's Procedural UI asset;\n• Support for RTLTMPro asset;\n\nUpdated:\n• Compatibility with Figma to UITK Converter;\n• Manuals.\n\nFixed:\n• Fixed an error when importing a layout to UITK;\n• Bug with namespaces;\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.8",
+          "versionType": 2,
+          "releaseDate": "Jun 1, 2024",
+          "description": "Fixed:\n• Exception when manually creating a prefab;\n• Bug in the algorithm that determines which images need to be downloaded."
+        },
+        {
+          "version": "3.1.9",
+          "versionType": 2,
+          "releaseDate": "Jun 4, 2024",
+          "description": ""
+        },
+        {
+          "version": "3.1.10",
+          "versionType": 2,
+          "releaseDate": "Jun 10, 2024",
+          "description": "Fixed:\n• Bug with the addition of extra images that are white."
+        },
+        {
+          "version": "3.1.11",
+          "versionType": 2,
+          "releaseDate": "Jun 11, 2024",
+          "description": "Added:\n• If an object in Figma has the preserve proportions option enabled, the 'AspectRatioFitter' script will be added to it in Unity. Check the 'Preserve Ratio Mode' option in the Main Settings of the asset.\nFixed:\n• Error logging related to the Figma API.\n• Errors when linking objects in IndexNames and GUID modes."
+        },
+        {
+          "version": "3.1.12",
+          "versionType": 1,
+          "releaseDate": "Jun 12, 2024",
+          "description": "Fixed:\n• Error when importing asset (name 'UEL' does not exist in the namespace);\n• Error with zero component sizes.\n\nChanged:\n• Improved some asset algorithms."
+        },
+        {
+          "version": "3.1.13",
+          "versionType": 0,
+          "releaseDate": "Jun 20, 2024",
+          "description": "Fixed:\n• Exception when creating prefabs: 'ArgumentNullException: Value cannot be null. Parameter name: path2';\n• Bug where sprites with names starting with a dot were not being downloaded."
+        },
+        {
+          "version": "3.1.14",
+          "versionType": 1,
+          "releaseDate": "Jul 17, 2024",
+          "description": "• Fixed NullReferenceException in CornerRounder.cs;\n• Improved the algorithm for positioning objects with rotation;\n• Improved caching algorithm;\n• Other minor fixes and improvements."
+        },
+        {
+          "version": "3.1.15",
+          "versionType": 2,
+          "releaseDate": "Jul 22, 2024",
+          "description": "Fixed:\n• The issue where the USS file did not get populated with styles during re-import into UI Toolkit;\n• NullReferenceException during import into UI Toolkit."
+        },
+        {
+          "version": "3.1.16",
+          "versionType": 1,
+          "releaseDate": "Jul 29, 2024",
+          "description": "• Added support for \"Nova UI\";\n• Fixed the font search algorithm;\n• Added \"Fonts\" section in the \"Manual for developers\";\n• Changed the positioning algorithm;\n• Other fixes and improvements."
+        }
+      ]
+    },
+    {
+      "name": "DAButton",
+      "assetType": 2,
+      "oldVersionDaysCount": 14,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionType": 0,
+          "releaseDate": "May 1, 2023"
+        }
+      ]
+    },
+    {
+      "name": "Figma to UITK Converter",
+      "assetType": 3,
+      "oldVersionDaysCount": 14,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionType": 1,
+          "releaseDate": "Feb 14, 2024"
+        },
+        {
+          "version": "1.0.1",
+          "versionType": 1,
+          "releaseDate": "Feb 23, 2024"
+        },
+        {
+          "version": "1.0.2",
+          "versionType": 1,
+          "releaseDate": "Mar 05, 2024"
+        },
+        {
+          "version": "1.0.3",
+          "versionType": 1,
+          "releaseDate": "Mar 06, 2024"
+        },
+        {
+          "version": "1.0.4",
+          "versionType": 0,
+          "releaseDate": "Mar 12, 2024",
+          "description": "Fixed an error in 'ScriptCreator.cs' for the 2019 version of Unity."
+        },
+        {
+          "version": "1.0.5",
+          "versionType": 2,
+          "releaseDate": "May 21, 2024",
+          "description": "• Added support for 'UITK Element Linker' asset;\n• Version compatibility synchronization with Figma Converter for Unity;\n• The script generator has been temporarily removed and will be added in version 1.0.6, as it needs to be updated for compatibility with 'UITK Element Linker' asset."
+        },
+        {
+          "version": "1.0.6",
+          "versionType": 2,
+          "releaseDate": "May 23, 2024",
+          "description": "• Fixed a bug with namespaces;\n• Fixed a bug with Parent.Id when importing a layout;\n• Added support for 'UITK Element Linker' asset;\n• Version compatibility synchronization with Figma Converter for Unity;\n• The script generator has been temporarily removed and will be added in version 1.0.7, as it needs to be updated for compatibility with 'UITK Element Linker' asset."
+        },
+        {
+          "version": "1.0.7",
+          "versionType": 2,
+          "releaseDate": "Jun 1, 2024",
+          "description": ""
+        },
+        {
+          "version": "1.0.8",
+          "versionType": 2,
+          "releaseDate": "Jun 10, 2024",
+          "description": "Updating compatibility with the latest version of Figma Converter for Unity."
+        },
+        {
+          "version": "1.0.9",
+          "versionType": 2,
+          "releaseDate": "Jun 11, 2024",
+          "description": "Errors when linking objects in IndexNames and GUID modes."
+        },
+        {
+          "version": "1.0.10",
+          "versionType": 2,
+          "releaseDate": "Jul 17, 2024",
+          "description": "Updating compatibility with the latest version of Figma Converter for Unity."
+        },
+        {
+          "version": "1.0.11",
+          "versionType": 1,
+          "releaseDate": "Jul 19, 2024",
+          "description": "Requires Figma Converter for Unity version 3.1.15.\nFixed the issue where the USS file did not get populated with styles during re-import into UI Toolkit."
+        }
+      ]
+    }
+  ]
+}
