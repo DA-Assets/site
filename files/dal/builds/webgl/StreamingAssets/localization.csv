@@ -1,0 +1,8 @@
+﻿Key;en-US;ja-JP
+label_current_data;"Current data.
+Position: {0}
+Location: {1}";"現在のデータ:
+位置: {0}
+場所: {1}"
+label_please_enter_nickname;Please, enter your nickname.;あなたの名前を入力してください
+label_current_value;Current value: {0};現在の値: {0}
