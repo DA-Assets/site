@@ -1,0 +1,134 @@
+{
+  "assets": [
+    {
+      "name": "Figma Converter for Unity",
+      "assetType": 1,
+      "oldVersionDaysCount": 14,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionType": 1,
+          "releaseDate": "Jul 20, 2021",
+          "description": "First release."
+        },
+        {
+          "version": "3.0.0",
+          "versionType": 2,
+          "releaseDate": "Sep 18, 2023",
+          "description": "This version contains bugs that were fixed in 3.0.1 version:\\n- Saving Figma session;\\n- Bug with the TryAdd method on some versions of Unity;\\n- Bug with downloading sprites on MacOS."
+        },
+        {
+          "version": "3.0.1",
+          "versionType": 2,
+          "releaseDate": "Sep 19, 2023",
+          "description": "This version contains a bug with font assignment, which was fixed in version 3.0.2."
+        },
+        {
+          "version": "3.0.2",
+          "versionType": 2,
+          "releaseDate": "Sep 21, 2023",
+          "description": "This version contains bugs that were fixed in 3.0.4 version:\n- Bug with text positioning;\n- Bug with getting the download link for the sprite;\n- Bug with converting TextMeshPro fonts;\n- Bug with import using procedural image assets."
+        },
+        {
+          "version": "3.0.4",
+          "versionType": 2,
+          "releaseDate": "Sep 21, 2023",
+          "description": "Bug with json parsing (unknown error). Fixed in 3.0.5 version."
+        },
+        {
+          "version": "3.0.5",
+          "versionType": 2,
+          "releaseDate": "Oct 04, 2023",
+          "description": "• Project size limit has been removed.\n• Project download and processing have been accelerated (tested with a project containing 100 frames).\n• Now, to work with the asset, it is necessary to install the Json.NET library.\n• Manual has been updated: information on installing Json.NET via the Package Manager has been added."
+        },
+        {
+          "version": "3.0.6",
+          "versionType": 1,
+          "releaseDate": "Oct 04, 2023",
+          "description": "• Fixed bug with detection of Json.NET on Unity 2022-2023.\n• Fixed bug with project building."
+        },
+        {
+          "version": "3.0.7",
+          "versionType": 2,
+          "releaseDate": "Oct 26, 2023",
+          "description": "Added:\n\n• RawImage support;\n\nFixed:\n\n• Positioning of TrueShadow; \n• Enabling/Disabling of TrueShadow; \n• Identification of SDF font names; \n• Destroying of components during project reimport;"
+        },
+        {
+          "version": "3.0.8",
+          "versionType": 0,
+          "releaseDate": "Oct 27, 2023",
+          "description": "Fixed 'Unsupported behaviour' error."
+        },
+        {
+          "version": "3.0.10",
+          "versionType": 2,
+          "releaseDate": "Feb 23, 2024",
+          "description": "Known Issues:\n• Bug with the display of the asset's interface in the settings tab when a TextMeshPro component is selected;\n• Error in asset scripts when attempting to build (you need to delete the asset before building to fix this problem).\n\nAdded:\n\n• Support for the 'Figma to UI Toolkit Converter' plugin has been added, providing the ability to import layouts from Figma into the UI Toolkit;\n\n• Support for D.A. Button (formerly 'FCU Button');\n\n• Support for positioning frames according to the borders of GameView.\n\nChanges:\n\n• Both manuals have been updated (information on importing sections has been added).\n\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.0",
+          "versionType": 2,
+          "releaseDate": "Feb 26, 2024",
+          "description": "Added:\n\n• The ability to select during re-import (when synchronizing an already existing layout with Figma), which individual components within frames will be imported or updated, and which will not.\n• The ability to choose which previously imported objects will be deleted from the scene during import.\n\nUpdated:\n• The 'Layout Updating' section in the 'Manual for developers'."
+        },
+        {
+          "version": "3.1.1",
+          "versionType": 2,
+          "releaseDate": "Feb 29, 2024",
+          "description": "Fixed:\n\n• Incorrect alpha channel value of the gradient;\n• The distance between gradient points.\n\nChanged:\n• The Shared folder has been moved into a separate assembly."
+        },
+        {
+          "version": "3.1.2",
+          "versionType": 1,
+          "releaseDate": "Mar 05, 2024",
+          "description": "Changed:\n• Improved positioning accuracy for objects with a rotation angle;\n• Added Margin for TextMeshPro objects that have a ContentSizeFitter;\n• Renamed 2 tags for Input Field, updated information in the 'Manual for designers'.\n\nFixed:\n• Error when importing components using the Shapes2D asset;\n• Error in the 'UNITY COMPONENTS' tab;\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.3",
+          "versionType": 1,
+          "releaseDate": "Mar 06, 2024",
+          "description": "Fixed:\n• Other fixes and improvements."
+        }
+      ]
+    },
+    {
+      "name": "DAButton",
+      "assetType": 2,
+      "oldVersionDaysCount": 14,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionType": 0,
+          "releaseDate": "May 1, 2023"
+        }
+      ]
+    },
+    {
+      "name": "Figma to UITK Converter",
+      "assetType": 3,
+      "oldVersionDaysCount": 14,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionType": 0,
+          "releaseDate": "Feb 14, 2024"
+        },
+        {
+          "version": "1.0.1",
+          "versionType": 1,
+          "releaseDate": "Feb 23, 2024"
+        },
+        {
+          "version": "1.0.2",
+          "versionType": 0,
+          "releaseDate": "Mar 05, 2024"
+        },
+        {
+          "version": "1.0.3",
+          "versionType": 0,
+          "releaseDate": "Mar 06, 2024"
+        }
+      ]
+    }
+  ]
+}
