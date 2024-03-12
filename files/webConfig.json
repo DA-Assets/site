@@ -88,6 +88,12 @@
           "versionType": 1,
           "releaseDate": "Mar 06, 2024",
           "description": "Fixed:\n• Other fixes and improvements."
+        },
+        {
+          "version": "3.1.4",
+          "versionType": 0,
+          "releaseDate": "Mar 12, 2024",
+          "description": "Fixed:\n• A bug that caused the 'Create Prefabs' function to work incorrectly.\n• A bug that prevented the asset from creating prefabs from a previously imported layout after restarting the scene.\n• A performance bug in the 'SyncHelper' components, present in all versions that have a serialized 'hashDataTree' field in the SyncData.cs script. The bug is automatically fixed for all your 'SyncHelper' components when updating the asset."
         }
       ]
     },
@@ -127,6 +133,12 @@
           "version": "1.0.3",
           "versionType": 0,
           "releaseDate": "Mar 06, 2024"
+        },
+        {
+          "version": "1.0.4",
+          "versionType": 0,
+          "releaseDate": "Mar 12, 2024",
+          "description": "Fixed an error in 'ScriptCreator.cs' for the 2019 version of Unity."
         }
       ]
     }
