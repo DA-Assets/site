@@ -94,6 +94,12 @@
           "versionType": 0,
           "releaseDate": "Mar 12, 2024",
           "description": "Fixed:\n• A bug that caused the 'Create Prefabs' function to work incorrectly.\n• A bug that prevented the asset from creating prefabs from a previously imported layout after restarting the scene.\n• A performance bug in the 'SyncHelper' components, present in all versions that have a serialized 'hashDataTree' field in the SyncData.cs script. The bug is automatically fixed for all your 'SyncHelper' components when updating the asset."
+        },
+        {
+          "version": "3.1.5",
+          "versionType": 0,
+          "releaseDate": "Mar 22, 2024",
+          "description": "Added:\n• The FcuButton component has been reinstated. Relevant sections in both manuals have been updated.\n• Support for SpriteRenderer.\n\nFixed:\n• Inaccuracies in both manuals."
         }
       ]
     },
