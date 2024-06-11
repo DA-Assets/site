@@ -127,9 +127,15 @@
         },
         {
           "version": "3.1.10",
-          "versionType": 1,
+          "versionType": 2,
           "releaseDate": "Jun 10, 2024",
           "description": "Fixed:\n• Bug with the addition of extra images that are white."
+        },
+        {
+          "version": "3.1.11",
+          "versionType": 1,
+          "releaseDate": "Jun 11, 2024",
+          "description": "Added:\n• If an object in Figma has the preserve proportions option enabled, the 'AspectRatioFitter' script will be added to it in Unity. Check the 'Preserve Ratio Mode' option in the Main Settings of the asset.\nFixed:\n• Error logging related to the Figma API.\n• Errors when linking objects in IndexNames and GUID modes."
         }
       ]
     },
@@ -196,9 +202,15 @@
         },
         {
           "version": "1.0.8",
-          "versionType": 1,
+          "versionType": 2,
           "releaseDate": "Jun 10, 2024",
           "description": "Updating compatibility with the latest version of Figma Converter for Unity."
+        },
+        {
+          "version": "1.0.9",
+          "versionType": 1,
+          "releaseDate": "Jun 11, 2024",
+          "description": "Errors when linking objects in IndexNames and GUID modes."
         }
       ]
     }
