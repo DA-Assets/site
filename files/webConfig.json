@@ -141,7 +141,7 @@
           "version": "3.1.12",
           "versionType": 1,
           "releaseDate": "Jun 12, 2024",
-          "description": ""
+          "description": "Fixed:\n• Error when importing asset (name 'UEL' does not exist in the namespace);\n\n• Error with zero component sizes.\n\nChanged:\n• Improved some asset algorithms."
         }
       ]
     },
