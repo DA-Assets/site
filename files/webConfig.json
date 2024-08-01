@@ -313,7 +313,7 @@
         },
         {
           "version": "3.1.16",
-          "versionType": 1,
+          "versionType": 2,
           "releaseDate": "Jul 29, 2024",
           "description": "• Added support for \"Nova UI\";\n• Fixed the font search algorithm;\n• Added \"Fonts\" section in the \"Manual for developers\";\n• Changed the positioning algorithm;\n• Other fixes and improvements."
         }
