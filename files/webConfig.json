@@ -343,7 +343,7 @@
         },
         {
           "version": "4.0.2",
-          "versionType": 1,
+          "versionType": 0,
           "releaseDate": "Aug 22, 2024",
           "description": "FIXED:\n• Error \"RoundedImage could not be found\" during asset import;\n• Error \"MainSettings does not contain a definition for UitkLinkingMode\" during asset import;\n• The function for automatic scene backups;\n• Adding rectangular outlines to parent components.\n\nCHANGED:\n• To import images and emojis located at the root of the project, you need to place them in a Frame.\n\nADDED:\n• The backup creation function has been added as a separate item in the context menu."
         },
@@ -352,7 +352,14 @@
           "versionType": 1,
           "releaseDate": "Aug 26, 2024",
           "description": "ADDED:\n• Support for ScrollView drawing;\n• Support for TMP_InputField drawing;\n• Support for InputField drawing for password input.\n\nCHANGED:\n• InputField drawing;"
+        },
+        {
+          "version": "4.2.0",
+          "versionType": 1,
+          "releaseDate": "Aug 27, 2024",
+          "description": "ADDED:\n• Support for Toggle and ToggleGroup drawing;"
         }
+
       ]
     },
     {
