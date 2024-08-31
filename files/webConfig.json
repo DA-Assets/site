@@ -349,13 +349,13 @@
         },
         {
           "version": "4.1.0",
-          "versionType": 1,
+          "versionType": 0,
           "releaseDate": "Aug 26, 2024",
           "description": "ADDED:\n• Support for ScrollView drawing;\n• Support for TMP_InputField drawing;\n• Support for InputField drawing for password input.\n\nCHANGED:\n• InputField drawing;"
         },
         {
           "version": "4.2.0",
-          "versionType": 1,
+          "versionType": 0,
           "releaseDate": "Aug 27, 2024",
           "description": "ADDED:\n• Support for Toggle and ToggleGroup drawing;"
         }
