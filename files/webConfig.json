@@ -362,7 +362,7 @@
         {
           "version": "4.2.1",
           "versionType": 0,
-          "releaseDate": "Sep 20, 2024",
+          "releaseDate": "Sep 19, 2024",
           "description": "FIXED:\n• The algorithm preventing instantiation of components that should not be instantiated (e.g., invisible components);\n• The 'ignore' tag."
         }
       ]
