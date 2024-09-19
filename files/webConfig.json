@@ -358,8 +358,13 @@
           "versionType": 0,
           "releaseDate": "Aug 27, 2024",
           "description": "ADDED:\n• Support for Toggle and ToggleGroup drawing;"
+        },
+        {
+          "version": "4.2.1",
+          "versionType": 0,
+          "releaseDate": "Sep 20, 2024",
+          "description": "FIXED:\n• The algorithm preventing instantiation of components that should not be instantiated (e.g., invisible components);\n• The 'ignore' tag."
         }
-
       ]
     },
     {
