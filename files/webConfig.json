@@ -466,6 +466,18 @@
           "description": "• Removed unnecessary margins when importing to UITK.\n• Updating compatibility with the latest version of Figma Converter for Unity."
         }
       ]
+    },
+    {
+      "name": "D.A. Localizator",
+      "assetType": 4,
+      "oldVersionDaysCount": 28,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "versionType": 1,
+          "releaseDate": "Oct 31, 2024"
+        }
+      ]
     }
   ]
 }
