@@ -567,6 +567,12 @@
           "version":"1.0.0",
           "versionType":1,
           "releaseDate":"Oct 31, 2024"
+        },
+        {
+          "version":"1.0.1",
+          "versionType":0,
+          "releaseDate":"Dec 13, 2024",
+          "description": "Fixed NullReferenceException when opening an asset in the inspector."
         }
       ]
     }
