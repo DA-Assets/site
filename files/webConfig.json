@@ -444,6 +444,12 @@
             "versionType": 0,
             "releaseDate": "Dec 09, 2024",
             "description": "FIXED:\n• Error 'This instance has already started one or more requests' during authorization in Figma on macOS and other platforms."
+        },
+        {
+            "version": "5.2.4",
+            "versionType": 2,
+            "releaseDate": "Dec 25, 2024",
+            "description": "FIXED:\n• Non-working 'Image Scale' setting in asset settings;\n• A bug where similar images were replacing each other during download.\n\nADDED:\n• Serialization of OnClick methods for UITK in the Script Generator tab."
         }
       ]
     },
@@ -555,6 +561,12 @@
             "versionType": 0,
             "releaseDate": "Nov 23, 2024",
             "description": "FIXED:\n• Unity freeze during layout import."
+        },
+        {
+            "version": "1.1.0",
+            "versionType": 2,
+            "releaseDate": "Dec 25, 2024",
+            "description": "ADDED:\n• Support for D.A. Localizator asset;\n• Support for Script Generator.\n\nUPDATED:\n• Compatibility with the latest version of Figma Converter for Unity."
         }
       ]
     },
