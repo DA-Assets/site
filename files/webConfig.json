@@ -448,8 +448,14 @@
         {
             "version": "5.2.4",
             "versionType": 2,
-            "releaseDate": "Dec 25, 2024",
-            "description": "FIXED:\n• Non-working 'Image Scale' setting in asset settings;\n• A bug where similar images were replacing each other during download.\n\nADDED:\n• Serialization of OnClick methods for UITK in the Script Generator tab."
+            "releaseDate": "Dec 26, 2024",
+            "description": "FIXED:\n• Non-working 'Image Scale' setting in asset settings;\n• Bug where similar images were replacing each other during download.\n\nADDED:\n• Serialization of OnClick methods for UITK in the Script Generator tab."
+        },
+        {
+            "version": "5.2.5",
+            "versionType": 0,
+            "releaseDate": "Dec 27, 2024",
+            "description": "FIXED:\n• 'UitkButton could not be found' error when importing the asset."
         }
       ]
     },
