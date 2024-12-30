@@ -570,7 +570,7 @@
         },
         {
             "version": "1.1.0",
-            "versionType": 2,
+            "versionType": 0,
             "releaseDate": "Dec 25, 2024",
             "description": "ADDED:\n• Support for D.A. Localizator asset;\n• Support for Script Generator.\n\nUPDATED:\n• Compatibility with the latest version of Figma Converter for Unity."
         }
