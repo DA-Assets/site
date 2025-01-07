@@ -456,6 +456,12 @@
             "versionType": 0,
             "releaseDate": "Dec 27, 2024",
             "description": "FIXED:\n• 'UitkButton could not be found' error when importing the asset."
+        },
+        {
+            "version": "5.2.6",
+            "versionType": 0,
+            "releaseDate": "Jan 07, 2025",
+            "description": "FIXED:\n• Bug where the last frame in the frame list was not displayed during import;\n• Bug where the text inside some objects with the 'img' tag was not considered when determining uniqueness, causing them to overwrite each other during download."
         }
       ]
     },
