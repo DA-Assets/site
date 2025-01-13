@@ -462,6 +462,12 @@
             "versionType": 0,
             "releaseDate": "Jan 07, 2025",
             "description": "FIXED:\n• Bug where the last frame in the frame list was not displayed during import;\n• Bug where the text inside some objects with the 'img' tag was not considered when determining uniqueness, causing them to overwrite each other during download."
+        },
+        {
+            "version": "5.3.0",
+            "versionType": 0,
+            "releaseDate": "Jan 13, 2025",
+            "description": "REFACTORED:\n• Component rotation algorithms.\n\nFIXED:\n• Issues in AutoLayout import algorithms.\n\nOTHER:\n• Other fixes and improvements."
         }
       ]
     },
@@ -579,6 +585,12 @@
             "versionType": 0,
             "releaseDate": "Dec 25, 2024",
             "description": "ADDED:\n• Support for D.A. Localizator asset;\n• Support for Script Generator.\n\nUPDATED:\n• Compatibility with the latest version of Figma Converter for Unity."
+        },
+        {
+            "version": "1.2.0",
+            "versionType": 0,
+            "releaseDate": "Jan 13, 2025",
+            "description": "ADDED:\n• Support for horizontal and vertical layouts.\n\nUPDATED:\n• Compatibility with the latest version of Figma Converter for Unity."
         }
       ]
     },
