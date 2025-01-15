@@ -435,13 +435,13 @@
         },
         {
             "version": "5.2.2",
-            "versionType": 0,
+            "versionType": 2,
             "releaseDate": "Dec 03, 2024",
             "description": "ADDED:\n• Special text messages from the developer will be displayed at the bottom of the asset interface. These messages may pertain to all versions or specific versions of the asset."
         },
         {
             "version": "5.2.3",
-            "versionType": 0,
+            "versionType": 2,
             "releaseDate": "Dec 09, 2024",
             "description": "FIXED:\n• Error 'This instance has already started one or more requests' during authorization in Figma on macOS and other platforms."
         },
