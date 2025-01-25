@@ -468,6 +468,12 @@
             "versionType": 0,
             "releaseDate": "Jan 13, 2025",
             "description": "REFACTORED:\n• Component rotation algorithms.\n\nFIXED:\n• Issues in AutoLayout import algorithms.\n\nOTHER:\n• Other fixes and improvements."
+        },
+        {
+            "version": "5.3.1",
+            "versionType": 0,
+            "releaseDate": "Jan 24, 2025",
+            "description": "FIXED:\n• Error installing the import extension for UITK on Unity versions older than Unity 6."
         }
       ]
     },
@@ -591,6 +597,12 @@
             "versionType": 0,
             "releaseDate": "Jan 13, 2025",
             "description": "ADDED:\n• Support for horizontal and vertical layouts.\n\nUPDATED:\n• Compatibility with the latest version of Figma Converter for Unity."
+        },
+        {
+            "version": "1.2.1",
+            "versionType": 0,
+            "releaseDate": "Jan 24, 2025",
+            "description": "FIXED:\n• Compatibility with versions older than Unity 6."
         }
       ]
     },
