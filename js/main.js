@@ -1,3 +1,13 @@
+function openWeChatQR() {
+  var m = document.getElementById('wechat-modal');
+  if (m) m.classList.add('shown');
+}
+
+function closeWeChatQR() {
+  var m = document.getElementById('wechat-modal');
+  if (m) m.classList.remove('shown');
+}
+
 function adjustImageRounding() {
     const products = document.querySelectorAll('.product');
     products.forEach(product => {
