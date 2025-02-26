@@ -500,6 +500,12 @@
           "description":""
         },
         {
+          "version":"5.4.3",
+          "versionType":2,
+          "releaseDate":"Feb 19, 2025",
+          "description":""
+        },
+        {
           "version": "5.5.0",
           "versionType": 0,
           "releaseDate": "Feb 26, 2025",
