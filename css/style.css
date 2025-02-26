@@ -4,6 +4,7 @@
     --buy-color: #27AE60;
     --discord-color: #7289da;
     --telegram-color: #24A1DE;
+    --wechat-color: #07c160;
     --github-color: #24292e;
     --background-color: #121212;
     --text-color: #ffffff;
@@ -296,3 +297,73 @@ body {
   display: inline;
 }
 
+.buttons a.wechat-button {
+    background-color: var(--wechat-color);
+}
+
+/* ===== WeChat QR modal ===== */
+.wechat-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    z-index: 9999;
+}
+
+.wechat-modal.shown {
+    display: block;
+}
+
+.wechat-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(2px);
+}
+
+.wechat-modal__content {
+    position: relative;
+    max-width: 340px;
+    margin: 5% auto;
+    background: #1b1b1b;
+    border: 1px solid var(--border-color);
+    border-radius: var(--item-rounding);
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: var(--text-color);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+}
+
+.wechat-modal__close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.wechat-modal__content h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.wechat-modal__img {
+    width: 90%;
+    object-fit: contain;
+}
+
+.wechat-modal__hint {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin: 15px 0 0 0;
+}
+
+@media (max-width: 500px) {
+    .wechat-modal__content {
+        margin: 50px 16px;
+        max-width: none;
+    }
+}
