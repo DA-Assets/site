@@ -488,6 +488,18 @@
           "description": "ADDED:\n• Support for D.A. Button asset.\n\nREMOVED:\n• Support for FcuButton.\n\nUPDATED:\n• The manual for designers.\n\nCHANGED:\n• Other changes in the asset code.\n\nNOTE:\n• It is recommended to remove the old version of the asset before updating."
         },
         {
+          "version":"5.4.1",
+          "versionType":2,
+          "releaseDate":"Feb 19, 2025",
+          "description":""
+        },
+        {
+          "version":"5.4.2",
+          "versionType":2,
+          "releaseDate":"Feb 19, 2025",
+          "description":""
+        },
+        {
           "version": "5.5.0",
           "versionType": 0,
           "releaseDate": "Feb 26, 2025",
