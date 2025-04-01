@@ -510,7 +510,13 @@
           "versionType": 0,
           "releaseDate": "Feb 26, 2025",
           "description": "VERY IMPORTANT: Update to the Figma authorization algorithm.\n\nAfter February 24, 2025, all older versions will no longer be able to authenticate with Figma due to changes in their API. You must update the asset to version 5.5.0 or higher.\n\nBefore updating the asset, completely remove the \"D.A. Assets\" folder.\n\nFIXED:\n• \"Layout Update\" function;\n• An issue when adding \"D.A. Localizator\" to a project;\n• An OutOfMemoryException error in projects that have individual components with a very large number of child elements (e.g., icons made up of several thousand vectors). This has been fixed, but please don’t create such icons 🙂;\n• A bug in AutoLayout import where paddings could be set to -2147483648;\n• A bug in the object hashing algorithm that caused some identical objects to be considered different during import;\n• Other minor fixes.\n\nUPDATED:\n• The \"Manual for developers\".\n\nCHANGED:\n• Third-party embedded assets such as \"D.A. Gradient,\" \"D.A. Corner Rounder,\" and \"SVGMeshUnity\" have been moved to separate folders.\n• UI of the \"Difference Checker\" window – now you can click on the component name to select it in the Unity hierarchy or open it in Figma (labels \"F\" and \"U\").\n\nREMOVED:\n• Unnecessary Debug.Log."
-        }
+        },
+        {
+          "version": "5.5.2",
+          "versionType": 1,
+          "releaseDate": "Apr 1, 2025",
+          "description": "FIXED:\n• An issue where unnecessary sprites were being downloaded.\n• Errors related to the creation of D.A. Button components.\n• Compatibility issues with Unity 2019.3.\n\nADDED:\n• Search for inactive objects in SpriteRemoverWindow.\n\nCHANGED:\n• Minimum supported version set to 2019.3."
+        }        
       ]
     },
     {
@@ -521,7 +527,7 @@
         {
           "version":"1.0.0",
           "versionType":0,
-          "releaseDate":"Feb 10, 2025",
+          "releaseDate":"Apr 01, 2025",
           "description": "First release."
         }
       ]
