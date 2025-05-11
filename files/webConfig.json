@@ -516,6 +516,12 @@
           "versionType": 1,
           "releaseDate": "Apr 1, 2025",
           "description": "FIXED:\n• An issue where unnecessary sprites were being downloaded.\n• Errors related to the creation of D.A. Button components.\n• Compatibility issues with Unity 2019.3.\n\nADDED:\n• Search for inactive objects in SpriteRemoverWindow.\n\nCHANGED:\n• Minimum supported version set to 2019.3."
+        },
+        {
+          "version": "5.6.0",
+          "versionType": 1,
+          "releaseDate": "May 11, 2025",
+          "description": "• Fixed a bug where gradients were downloaded as white sprites;\n• 9-slice: Full Rect and Pixels Per Unit are now set automatically;\n• Figma object info is now included in Import Events."
         }        
       ]
     },
