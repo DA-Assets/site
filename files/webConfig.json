@@ -519,16 +519,22 @@
         },
         {
           "version": "5.6.1",
-          "versionType": 1,
+          "versionType": 2,
           "releaseDate": "May 11, 2025",
           "description": "• Fixed a bug where gradients were downloaded as white sprites;\n• Full Rect and Pixels Per Unit are now set automatically; The improved 9-slice algorithm now creates rectangles with minimal size.\n• Figma object info is now included in Import Events."
         },
         {
           "version": "5.6.2",
-          "versionType": 1,
+          "versionType": 2,
           "releaseDate": "May 12, 2025",
           "description": "• Improved the message shown when Newtonsoft.Json is missing."
-        }            
+        },
+        {
+          "version": "5.6.3",
+          "versionType": 1,
+          "releaseDate": "May 14, 2025",
+          "description": "Fixed 'Graphics.CopyTexture' error."
+        }                
       ]
     },
     {
