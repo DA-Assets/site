@@ -690,6 +690,12 @@
           "versionType": 0,
           "releaseDate": "Feb 9, 2025",
           "description": "Changes related to the \"Shared\" folder. If you are not using Figma Converter for Unity, you can ignore this update."
+        },
+        {
+          "version": "2.0.0",
+          "versionType": 1,
+          "releaseDate": "May 23, 2025",
+          "description": "• Asset architecture has been changed: the main localizator can now be represented either as a GameObject in the scene or as a ScriptableObject;\n• A limit on the number of localization requests per frame has been added to prevent performance spikes.\n  It is disabled by default, since no spikes were observed even when localizing 10,000 components.\n• The manual included with the asset has been updated."
         }
       ]
     },
