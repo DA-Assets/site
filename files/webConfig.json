@@ -537,16 +537,22 @@
         },
         {
           "version": "5.6.4",
-          "versionType": 1,
+          "versionType": 0,
           "releaseDate": "May 26, 2025",
           "description": "• Improved AutoLayout import quality.\n• Ensured compatibility with the latest version of D.A. Localizator."
         },
         {
           "version": "5.7.0",
-          "versionType": 1,
+          "versionType": 2,
           "releaseDate": "Jul 2, 2025",
           "description": "• **Fixed** a bug that caused incorrect prefab coordinates when importing using prefabs previously created by the asset.\n• **Added** the ability to import all buttons in SpriteSwap mode.\n• Both **manuals** have been **moved to GitBook** and are no longer included with the asset. A link to the new manuals can be found in the \"**Manual.txt**\" file inside the asset folder."
-        }                       
+        },
+        {
+          "version": "5.7.1",
+          "versionType": 1,
+          "releaseDate": "Jul 2, 2025",
+          "description": "• Fixed the error \"'ButtonSettings' does not contain a definition for 'TransitionType'\" during asset import."
+        }                            
       ]
     },
     {
