@@ -582,7 +582,13 @@
           "versionType": 1,
           "releaseDate": "Jul 18, 2025",
           "description": "• Added support for importing the Selected state in the D.A. Button asset;\n• Fixed compatibility with certain Unity versions;\n• Assembly definition files moved outside the compiled assembly;\n• Removed unused scripts."
-        }                                         
+        },
+        {
+          "version": "5.8.1",
+          "versionType": 0,
+          "releaseDate": "Jul 24, 2025",
+          "description": "• Fixed a bug where Figma Converter failed to register in the Scripting Define Symbols, preventing the UITK Converter from working.\n• Fixed a compatibility issue with projects that contain a file \"Tripolygon.UModeler.Hub.dll\"."
+        }                                          
       ]
     },
     {
