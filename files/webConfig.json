@@ -118,10 +118,10 @@
                "description":"• Updating manuals\n• Small fixes"
             },
             {
-               "version":"1.1.8",
-               "versionType":1,
-               "releaseDate":"Mar 19, 2022",
-               "description":"• Fixed bug with missing 'Download Project' button"
+              "version":"1.1.8",
+              "versionType":1,
+              "releaseDate":"Mar 19, 2022",
+              "description":"• Fixed missing download project button.\n• Fixed cont and img import."
             },
             {
                "version":"1.1.9",
