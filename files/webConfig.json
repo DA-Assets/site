@@ -678,6 +678,12 @@
                "versionType":0,
                "releaseDate":"Jul 24, 2025",
                "description":"• Fixed a bug where Figma Converter failed to register in the Scripting Define Symbols, preventing the UITK Converter from working.\n• Fixed a compatibility issue with projects that contain a file \"Tripolygon.UModeler.Hub.dll\"."
+            },
+            {
+               "version":"5.8.3",
+               "versionType":0,
+               "releaseDate":"Sep 25, 2025",
+               "description":"Fixed the 'Invalid scopes for app' error during browser-based authorization."
             }
          ]
       },
