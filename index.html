@@ -178,6 +178,7 @@
               <div class="buttons">
                 <a class="discord-button" href="https://discord.gg/ZsnDffV5eE" target="_blank">Discord Server</a>
                 <a class="telegram-button" href="https://t.me/da_assets_publisher" target="_blank">Telegram Support</a>
+                <a class="wechat-button" href="javascript:void(0);" onclick="openWeChatQR()">WeChat</a>
                 <a href="mailto: da.assets.publisher@gmail.com">Email Support</a>
               </div>
             </div>
@@ -189,5 +190,18 @@
       <p>All products released by D.A. Assets and distributed on the Asset Store platform</p>
       <p>are protected under the <a href="https://unity.com/legal/as-terms" target="_blank">Standard Unity Asset Store EULA</a>.</p>
     </footer>
+    <!-- WeChat QR Modal -->
+    <div id="wechat-modal" class="wechat-modal">
+      <div class="wechat-modal__backdrop" onclick="closeWeChatQR()"></div>
+      <div class="wechat-modal__content">
+        <button class="wechat-modal__close" onclick="closeWeChatQR()">&times;</button>
+        <h3>Scan to add me in WeChat</h3>
+        <img src="img/wechat_qr.png" alt="WeChat QR code" class="wechat-modal__img">
+        <p class="wechat-modal__hint">
+          WeChat ID:
+          <span class="wechat-modal__id">da_assets</span>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
