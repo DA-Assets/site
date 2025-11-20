@@ -4,9 +4,9 @@
          "name":"Figma Converter for Unity",
          "assetType":1,
          "oldVersionDaysCount":28,
-         "developerMessage":{
-            "text":"",
-            "type":1
+         "developerMessage": {
+            "text": "Recently, Figma made changes to its REST API. If you get a \"429 TooManyRequests\" error when importing a layout, you need to upgrade your Figma plan to Pro full-seat/dev or higher.",
+            "type": 2
          },
          "versions":[
             {
