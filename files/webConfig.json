@@ -5,7 +5,7 @@
          "assetType":1,
          "oldVersionDaysCount":28,
          "developerMessage": {
-            "text": "Recently, Figma made changes to its REST API.\nIf you get a \"429 TooManyRequests\" error when importing a layout, you need to upgrade your Figma plan to Pro full-seat/dev or higher.",
+            "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you need to upgrade your Figma plan to Pro full-seat/dev or higher.\n\nIt seems that the new limits provided by the Pro subscription are currently activated only after the old timeout expires — the one you might have received while importing on the Free plan.\n\nThis issue is currently being investigated, and a corresponding thread has been created on the Figma forum.",
             "type": 2
          },
          "versions":[
