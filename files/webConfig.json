@@ -699,27 +699,33 @@
             },
             {
                "version": "6.1.0",
-               "versionType": 1,
+               "versionType": 2,
                "releaseDate": "Nov 24, 2025",
                "description": "• Added handling of request limits for Figma's server — a window now provides full details and options to retry or stop the import.\n• Added a new feature to ScriptGenerator — custom names for fields and methods, and selection of which fields/methods will be added to the script.\n• Fixed the display of Scale and Compression slider values in Settings.\n• Fixed the interface display in Settings when resizing the window.\n• Hotfix for stopping the import in cases where certain sprites cannot be downloaded from Figma (a more robust solution will come in the next version)."
             },
             {
                "version": "6.1.1",
-               "versionType": 1,
+               "versionType": 2,
                "releaseDate": "Nov 26, 2025",
                "description": "• Fixed a bug where, when importing using the MPUiKit integration, some sprites were being downloaded instead of being drawn procedurally;\n• Fixed a NullReferenceException when importing with Google Fonts enabled."
             },
             {
                "version": "6.1.2",
-               "versionType": 1,
+               "versionType": 2,
                "releaseDate": "Nov 26, 2025",
                "description": "• The FileNotFoundException no longer stops the import."
             },
             {
                "version": "6.1.3",
-               "versionType": 1,
+               "versionType": 2,
                "releaseDate": "Nov 26, 2025",
                "description": "• Another issue has been fixed related to downloading images instead of procedurally generating them with MPUIKit."
+            },
+            {
+               "version": "6.2.0",
+               "versionType": 1,
+               "releaseDate": "Nov 29, 2025",
+               "description": "• Added multi-language support for all objects during import — sprites and GameObjects can now contain characters from any language;\n• A full fix for the FileNotFoundException — if you still encounter it, please contact the developer;\n• Fixed saving of settings in the settings window;\n• Fixed a bug in the asset’s UI progress display — it no longer jumps backward."
             }
          ]
       },
@@ -874,6 +880,12 @@
                "version": "1.3.0",
                "versionType": 1,
                "releaseDate": "Nov 14, 2025",
+               "description": "• Updated compatibility with Figma Converter for Unity."
+            },
+            {
+               "version": "1.3.2",
+               "versionType": 0,
+               "releaseDate": "Nov 29, 2025",
                "description": "• Updated compatibility with Figma Converter for Unity."
             }
          ]
