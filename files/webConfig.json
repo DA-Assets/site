@@ -726,6 +726,12 @@
                "versionType": 1,
                "releaseDate": "Nov 29, 2025",
                "description": "• Added multi-language support for all objects during import — sprites and GameObjects can now contain characters from any language;\n• A full fix for the FileNotFoundException — if you still encounter it, please contact the developer;\n• Fixed saving of settings in the settings window;\n• Fixed a bug in the asset’s UI progress display — it no longer jumps backward."
+            },
+            {
+               "version": "6.2.1",
+               "versionType": 1,
+               "releaseDate": "Nov 30, 2025",
+               "description": "• Hotfix for a NullReferenceException when opening the Settings window, which caused it not to open.\n• The Settings window will now open, but the exact reason for the error is still unknown.\n• If you receive errors in the catch block — please contact the developer."
             }
          ]
       },
