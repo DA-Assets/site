@@ -729,7 +729,7 @@
             },
             {
                "version": "6.2.1",
-               "versionType": 1,
+               "versionType": 0,
                "releaseDate": "Nov 30, 2025",
                "description": "• Hotfix for a NullReferenceException when opening the Settings window, which caused it not to open.\n• The Settings window will now open, but the exact reason for the error is still unknown.\n• If you receive errors in the catch block — please contact the developer."
             }
