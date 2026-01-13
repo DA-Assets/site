@@ -732,6 +732,12 @@
                "versionType": 0,
                "releaseDate": "Nov 30, 2025",
                "description": "• Hotfix for a NullReferenceException when opening the Settings window, which caused it not to open.\n• The Settings window will now open, but the exact reason for the error is still unknown.\n• If you receive errors in the catch block — please contact the developer."
+            },
+            {
+               "version": "6.3.0",
+               "versionType": 1,
+               "releaseDate": "Jan 13, 2026",
+               "description": "• An MCP server has been added to the Converter, which currently works with Cursor, Antigravity, and Codex.\n• Support for the FlexibleImage asset has been added.\n• Automatic modification of AdditionalCanvasShaderChannels has been added to CornerRounder — this automatically fixes visual glitches in that shader.\n• Unity compatibility has been changed — the minimum version is now 2021.3.\n• Error handling during import has been improved.\n• The developer manual has been updated — MCP Server section."
             }
          ]
       },
@@ -892,6 +898,12 @@
                "version": "1.3.2",
                "versionType": 0,
                "releaseDate": "Nov 29, 2025",
+               "description": "• Updated compatibility with Figma Converter for Unity."
+            },
+            {
+               "version": "1.3.3",
+               "versionType": 0,
+               "releaseDate": "Jan 13, 2026",
                "description": "• Updated compatibility with Figma Converter for Unity."
             }
          ]
