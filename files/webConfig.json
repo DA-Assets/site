@@ -738,6 +738,24 @@
                "versionType": 1,
                "releaseDate": "Jan 13, 2026",
                "description": "• An MCP server has been added to the Converter, which currently works with Cursor, Antigravity, and Codex.\n• Support for the FlexibleImage asset has been added.\n• Automatic modification of AdditionalCanvasShaderChannels has been added to CornerRounder — this automatically fixes visual glitches in that shader.\n• Unity compatibility has been changed — the minimum version is now 2021.3.\n• Error handling during import has been improved.\n• The developer manual has been updated — MCP Server section."
+            },
+            {
+               "version": "6.4.0",
+               "versionType": 1,
+               "releaseDate": "Jan 14, 2026",
+               "description": "• Coplay support has been added;\n• A new \"Mesh Subdivisions\" field has been added to the FlexibleImageSettings."
+            },
+            {
+               "version": "6.4.1",
+               "versionType": 0,
+               "releaseDate": "Jan 14, 2026",
+               "description": "• Minor UI changes."
+            },
+            {
+               "version": "6.4.2",
+               "versionType": 0,
+               "releaseDate": "Jan 14, 2026",
+               "description": "• Fixed regex errors when assigning the project URL via the MCP server;\n• Three items in List<ContentItem> in GetFrameListTool were replaced with a single item."
             }
          ]
       },
