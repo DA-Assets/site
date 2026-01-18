@@ -760,19 +760,19 @@
             {
                "version": "6.4.3",
                "versionType": 2,
-               "releaseDate": "Date not provided",
+               "releaseDate": "Jan 16, 2026",
                "description": "• Fixed a bug in the SerializedDictionary inspector that prevented editing serialized values."
             },
             {
                "version": "6.4.4",
                "versionType": 2,
-               "releaseDate": "Date not provided",
+               "releaseDate": "Jan 16, 2026",
                "description": "• Fixed a NullReferenceException in ProjectImporterBase.cs related to \"groups\" being null."
             },
             {
                "version": "6.4.5",
                "versionType": 1,
-               "releaseDate": "Date not provided",
+               "releaseDate": "Jan 18, 2026",
                "description": "FIXED:\n• A bug during asset import in projects where Newtonsoft.Json is missing;\n• A bug when selecting a project from the list of recent projects;\n• A bug where some images that were supposed to be imported as whole were imported as split."
             }
          ]
@@ -803,7 +803,7 @@
             {
             "version": "3.0.1",
             "versionType": 0,
-            "releaseDate": "Date not provided",
+            "releaseDate": "Jan 18, 2026",
             "description": "• Updated the DA-Shared folder."
             }
          ]
@@ -994,7 +994,7 @@
             {
             "version": "3.0.1",
             "versionType": 0,
-            "releaseDate": "Date not provided",
+            "releaseDate": "Jan 18, 2026",
             "description": "• Updated the DA-Shared folder."
             }
          ]
