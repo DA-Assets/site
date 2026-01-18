@@ -741,21 +741,39 @@
             },
             {
                "version": "6.4.0",
-               "versionType": 1,
+               "versionType": 2,
                "releaseDate": "Jan 14, 2026",
                "description": "• Coplay support has been added;\n• A new \"Mesh Subdivisions\" field has been added to the FlexibleImageSettings."
             },
             {
                "version": "6.4.1",
-               "versionType": 0,
+               "versionType": 2,
                "releaseDate": "Jan 14, 2026",
                "description": "• Minor UI changes."
             },
             {
                "version": "6.4.2",
-               "versionType": 0,
+               "versionType": 2,
                "releaseDate": "Jan 14, 2026",
                "description": "• Fixed regex errors when assigning the project URL via the MCP server;\n• Three items in List<ContentItem> in GetFrameListTool were replaced with a single item."
+            },
+            {
+               "version": "6.4.3",
+               "versionType": 2,
+               "releaseDate": "Date not provided",
+               "description": "• Fixed a bug in the SerializedDictionary inspector that prevented editing serialized values."
+            },
+            {
+               "version": "6.4.4",
+               "versionType": 2,
+               "releaseDate": "Date not provided",
+               "description": "• Fixed a NullReferenceException in ProjectImporterBase.cs related to \"groups\" being null."
+            },
+            {
+               "version": "6.4.5",
+               "versionType": 1,
+               "releaseDate": "Date not provided",
+               "description": "FIXED:\n• A bug during asset import in projects where Newtonsoft.Json is missing;\n• A bug when selecting a project from the list of recent projects;\n• A bug where some images that were supposed to be imported as whole were imported as split."
             }
          ]
       },
@@ -778,9 +796,15 @@
             },
             {
                "version": "3.0.0",
-               "versionType": 1,
+               "versionType": 0,
                "releaseDate": "Nov 14, 2025",
                "description": "• The asset's internal interface has been migrated to UI Toolkit; this does not affect Canvas compatibility.\n• The foundation for localizing the asset's interface into multiple languages has been laid and will be completed in the next update."
+            },
+            {
+            "version": "3.0.1",
+            "versionType": 0,
+            "releaseDate": "Date not provided",
+            "description": "• Updated the DA-Shared folder."
             }
          ]
       },
@@ -963,9 +987,15 @@
             },
             {
                "version": "3.0.0",
-               "versionType": 1,
+               "versionType": 0,
                "releaseDate": "Nov 14, 2025",
                "description": "• The asset\\'s internal interface has been migrated to UI Toolkit.\n• The foundation for localizing the asset\\'s interface into multiple languages has been laid and will be completed in the next update."
+            },
+            {
+            "version": "3.0.1",
+            "versionType": 0,
+            "releaseDate": "Date not provided",
+            "description": "• Updated the DA-Shared folder."
             }
          ]
       },
