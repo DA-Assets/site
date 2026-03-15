@@ -774,6 +774,18 @@
                "versionType": 0,
                "releaseDate": "Jan 18, 2026",
                "description": "FIXED:\n• A bug during asset import in projects where Newtonsoft.Json is missing;\n• A bug when selecting a project from the list of recent projects;\n• A bug where some images that were supposed to be imported as whole were imported as split."
+            },
+            {
+               "version": "6.4.6",
+               "versionType": 0,
+               "releaseDate": "Jan 19, 2026",
+               "description": "Fixed a bug where some images that were supposed to be imported as whole were imported as split."
+            },
+            {
+               "version": "7.0.0",
+               "versionType": 1,
+               "releaseDate": "Mar 15, 2026",
+               "description": "NOTE:\n• Before installing this version, delete the \"D.A. Assets\" folder.\n\nADDED:\n• Support for importing from a local ZIP copy of a project (offline import), which helps avoid the 429 error;\nThe feature is already implemented, but creating the ZIP archive requires a Figma plugin that has not been released yet;\nA notification about its release will appear in the main asset interface once it becomes available;\n• Support for the new UniText text component, which allows the most accurate reproduction of Figma text and its effects;\n• Import diagnostics system — the SyncHelper component now displays detailed information explaining why a component was imported in a particular way;\n• Layout Grid support (disabled by default);\n• FontSubset expansion:\n— previously, 22 Unicode subsets for fonts were supported;\n— 8 more have now been added, including CJK-related languages/scripts: Georgian, Ethiopic, Lao, Tibetan, Japanese, ChineseSimplified, ChineseTraditional, Korean;\n• New languages for the asset UI and logs: Indonesian, Hindi;\n• Support for the built-in version of Newtonsoft.Json — you no longer need to install a separate Newtonsoft.Json package for the asset to work;\n• UI improvements for asset settings:\n— added visualization of modified values;\n— added the ability to reset each individual value to its default;\n— added the ability to reset individual settings sections.\nReset management works similarly to prefab revert — right-click a field to open the context menu.\n\nCHANGED:\n• 9-slice logic:\n— added automatic slicing for all rounded rectangles;\n— manual slice and auto slice no longer reduce an image to its minimum size if it contains a gradient;\n• HashGenerator:\n— fixed bugs;\n— changed the hash collection algorithm.\nBecause of this, during re-import, existing sprites in the project that were imported by previous asset versions will not be recognized;\n• The asset has been fully moved to an asmdef assembly and now references asmdefs of other dependent assets.\nIf a dependency does not have its own asmdef, it will be generated automatically using the Dependency Manager.\n\nIMPROVED:\n• Overall import accuracy, especially AutoLayout and text components;\n• TextMeshPro import support:\n— added JUSTIFIED alignment;\n— added maxLines;\n— added lineHeightUnit;\n— added VertexGradient for vertical linear gradients for single-line texts only;\n\nUPDATED:\n• Compatibility with FlexibleImage;\n• Compatibility with Figma to UITK Converter.\n\nRENAMED:\n• Oriya → Odia (with an [Obsolete] alias) according to the official Unicode and Google Fonts naming.\n\nFIXED:\n• An issue when downloading images whose names start with a dot."
             }
          ]
       },
@@ -801,10 +813,10 @@
                "description": "• The asset's internal interface has been migrated to UI Toolkit; this does not affect Canvas compatibility.\n• The foundation for localizing the asset's interface into multiple languages has been laid and will be completed in the next update."
             },
             {
-            "version": "3.0.1",
-            "versionType": 0,
-            "releaseDate": "Jan 18, 2026",
-            "description": "• Updated the DA-Shared folder."
+               "version": "3.0.1",
+               "versionType": 0,
+               "releaseDate": "Jan 18, 2026",
+               "description": "• Updated the DA-Shared folder."
             }
          ]
       },
@@ -947,12 +959,18 @@
                "versionType": 0,
                "releaseDate": "Jan 13, 2026",
                "description": "• Updated compatibility with Figma Converter for Unity."
+            },
+            {
+               "version": "2.0.0",
+               "versionType": 1,
+               "releaseDate": "Mar 16, 2026",
+               "description": "NOTE:\n• Before installing this version, delete the \"Figma-to-UITK-Converter\" folder.\n\nADDED:\n• Component template system via ComponentTemplateWriter and <ui:Instance>:\n— Figma INSTANCE / COMPONENT nodes are now exported as separate template files inside Resources/ instead of being expanded inline into the main UXML;\n— parent UXML files now reference component templates via <ui:Instance>, while visual styles remain inside the generated template file;\n• USS Variables system via UssVariableCollector:\n— colors, font sizes, spacing, border widths, and border radius values are now collected into a :root { } block as USS custom properties and referenced via var(--...);\n— fill, stroke, tint, text colors, font-size, margin/padding, border-width, and border-radius are now automatically exported as USS variables in the generated .uss file;\n• Full USS-based support for Figma Constraints:\n— horizontal constraints LEFT, RIGHT, LEFT_RIGHT, CENTER, SCALE are now converted into proper USS positioning rules;\n— vertical constraints TOP, BOTTOM, TOP_BOTTOM, CENTER, SCALE are now converted as well;\n— root frames always receive left: 0px and top: 0px;\n— OUTSIDE stroke expansion is now reflected in the USS layout box;\n— rotated parent positioning is now calculated using matrices instead of absoluteBoundingBox;\n• SPACE_BETWEEN support in Auto Layout:\n— PrimaryAxisAlignItems == SPACE_BETWEEN now maps to justify-content: space-between;\n— LayoutWrap == WRAP now maps to flex-wrap: wrap;\n— CounterAxisAlignContent == SPACE_BETWEEN with wrap now maps to align-content: space-between;\n• Opacity support:\n— Figma node opacity values below 1 are now exported to inline USS styles;\n• Border-radius USS variables for equal corner radii:\n— when all 4 corners have the same radius, a single var(--radius-X) variable is now used instead of four hardcoded values.\n\nCHANGED:\n• Auto Layout implementation has been significantly reworked:\n— auto-layout containers are now generated as native <ui:VisualElement> elements using flex-direction, align-items, justify-content, and padding;\n— itemSpacing is now represented statically via margin-right / margin-bottom on non-last child elements, without runtime scripts;\n• ScrollView generation now uses the native UITK element:\n— previous custom <fcu:GapContainer> output has been replaced with <ui:ScrollView>;\n— mode is now exported as Vertical, Horizontal, or VerticalAndHorizontal;\n— scrollbar arrows and track are hidden;\n— an additional .uss patch fixes the Unity horizontal ScrollView content direction issue;\n• SetAutolayoutPropsForChild has been fully rewritten:\n— HUG now maps to auto sizing (or fixed px for text with fixed bounds);\n— FILL now maps to align-self: stretch;\n— flex-grow is disabled inside ScrollView;\n— fixed-size elements on the primary axis now receive flex-shrink: 0;\n— text nodes now distinguish between autoWidthText, autoHeightText, and preserveTextBounds;\n• Instead of TTF fonts, FontAsset files are now used.\n\nThey are automatically converted from Google Fonts or from your own TTF fonts that are serialized in the asset settings in the \"TEXT & FONTS\" section.\n\n• Auto-width text handling has been improved:\n— TEXT nodes with TextAutoResize == WIDTH_AND_HEIGHT now receive white-space: nowrap, text-overflow: clip, and overflow: hidden;\n• GetParentStrokeOffset now correctly respects StrokeAlign:\n— INSIDE → (sw, sw);\n— CENTER → (sw/2, sw/2);\n— OUTSIDE → (0, 0), with layout expansion handled separately.\n\nREMOVED:\n• GapContainer / ChildAnnotator system:\n— GapContainer.cs — replaced by native flex layout;\n— ChildAnnotator.cs — polling-based child annotation is no longer needed.\n\nIMPROVED:\n• Runtime USS generation now produces cleaner and more reusable output through shared USS variables;\n• Component reuse is now more efficient due to template-based generation with <ui:Instance>;\n• Layout accuracy for constraints, rotated parents, strokes, and sprites has been significantly improved, allowing the most complex test projects to be imported correctly, which previously imported incorrectly in earlier asset versions.\n\nUPDATED:\n• Compatibility with the latest FCU architecture has been updated;\n• Archive with an import example on the developer's website."
             }
          ]
       },
       {
          "name":"D.A. Localizator",
-         "assetType":4,
+         "assetType": 4,
          "oldVersionDaysCount":28,
          "versions":[
             {
