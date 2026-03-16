@@ -5,7 +5,7 @@
          "assetType":1,
          "oldVersionDaysCount":28,
          "developerMessage": {
-            "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you need to upgrade your Figma plan to Pro full-seat/dev or higher.\n\nIt seems that even if you have a Pro subscription, importing a project that was not created by your account will apply Free-tier limits.\n\nIn that case, to return to Pro limits, you need to copy the frames into your own project and import that instead.",
+            "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you need to upgrade your Figma plan to Pro (full-seat/dev) or higher.\n\nYou also need to move the project you are importing into a Pro team so that Pro limits apply to it.\n\nIf you receive a 429 error when importing a project that is not owned by your account, move the frames from that project into your own project that is located in a Pro team, and then try importing again.\n\n---------\n\nIn the near future, the asset author is preparing a legal solution that will allow avoiding the 429 error on free Figma plans.\n\nThis solution will be released as a separate tool that acts as a supporting utility for the main asset, Figma Converter for Unity.\n\nThe release will be announced in this information block and on the Discord server.",
             "type": 2
          },
          "versions":[
