@@ -14,9 +14,6 @@
                "versionType": 1,
                "releaseDate": "Jul 20, 2021",
                "changelog": {
-                  "version": "1.0.0",
-                  "date": "2021-07-20",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Initial release."
@@ -29,9 +26,6 @@
                "versionType": 0,
                "releaseDate": "Aug 17, 2021",
                "changelog": {
-                  "version": "1.0.1",
-                  "date": "2021-08-17",
-                  "yanked": false
                }
             },
             {
@@ -39,9 +33,6 @@
                "versionType": 1,
                "releaseDate": "Aug 24, 2021",
                "changelog": {
-                  "version": "1.0.2",
-                  "date": "2021-08-24",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed a bug when installing an asset from the Package Manager."
@@ -54,9 +45,6 @@
                "versionType": 1,
                "releaseDate": "Sep 14, 2021",
                "changelog": {
-                  "version": "1.0.3",
-                  "date": "2021-09-14",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Modern Procedural UI Kit asset support."
@@ -80,9 +68,6 @@
                "versionType": 0,
                "releaseDate": "Sep 20, 2021",
                "changelog": {
-                  "version": "1.0.4",
-                  "date": "2021-09-20",
-                  "yanked": false
                }
             },
             {
@@ -90,9 +75,6 @@
                "versionType": 1,
                "releaseDate": "Oct 28, 2021",
                "changelog": {
-                  "version": "1.0.5",
-                  "date": "2021-10-28",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed a #if UNITY_EDITOR bug in BetterButton.cs."
@@ -105,9 +87,6 @@
                "versionType": 1,
                "releaseDate": "Nov 29, 2021",
                "changelog": {
-                  "version": "1.0.6",
-                  "date": "2021-11-29",
-                  "yanked": false
                }
             },
             {
@@ -115,9 +94,6 @@
                "versionType": 1,
                "releaseDate": "Dec 10, 2021",
                "changelog": {
-                  "version": "1.0.7",
-                  "date": "2021-12-10",
-                  "yanked": false
                }
             },
             {
@@ -125,9 +101,6 @@
                "versionType": 0,
                "releaseDate": "Jan 6, 2022",
                "changelog": {
-                  "version": "1.0.8",
-                  "date": "2022-01-06",
-                  "yanked": false
                }
             },
             {
@@ -135,9 +108,6 @@
                "versionType": 1,
                "releaseDate": "Jan 15, 2022",
                "changelog": {
-                  "version": "1.0.9",
-                  "date": "2022-01-15",
-                  "yanked": false
                }
             },
             {
@@ -145,9 +115,6 @@
                "versionType": 1,
                "releaseDate": "Feb 9, 2022",
                "changelog": {
-                  "version": "1.1.0",
-                  "date": "2022-02-09",
-                  "yanked": false
                }
             },
             {
@@ -155,9 +122,6 @@
                "versionType": 0,
                "releaseDate": "Feb 13, 2022",
                "changelog": {
-                  "version": "1.1.1",
-                  "date": "2022-02-13",
-                  "yanked": false
                }
             },
             {
@@ -165,9 +129,6 @@
                "versionType": 1,
                "releaseDate": "Feb 15, 2022",
                "changelog": {
-                  "version": "1.1.2",
-                  "date": "2022-02-15",
-                  "yanked": false
                }
             },
             {
@@ -175,9 +136,6 @@
                "versionType": 0,
                "releaseDate": "Feb 17, 2022",
                "changelog": {
-                  "version": "1.1.3",
-                  "date": "2022-02-17",
-                  "yanked": false
                }
             },
             {
@@ -185,9 +143,6 @@
                "versionType": 0,
                "releaseDate": "Feb 20, 2022",
                "changelog": {
-                  "version": "1.1.4",
-                  "date": "2022-02-20",
-                  "yanked": false
                }
             },
             {
@@ -195,9 +150,6 @@
                "versionType": 1,
                "releaseDate": "Mar 8, 2022",
                "changelog": {
-                  "version": "1.1.5",
-                  "date": "2022-03-08",
-                  "yanked": false
                }
             },
             {
@@ -205,9 +157,6 @@
                "versionType": 0,
                "releaseDate": "Mar 10, 2022",
                "changelog": {
-                  "version": "1.1.6",
-                  "date": "2022-03-10",
-                  "yanked": false
                }
             },
             {
@@ -215,9 +164,6 @@
                "versionType": 1,
                "releaseDate": "Mar 16, 2022",
                "changelog": {
-                  "version": "1.1.7",
-                  "date": "2022-03-16",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated manuals."
@@ -235,9 +181,6 @@
                "versionType": 1,
                "releaseDate": "Mar 19, 2022",
                "changelog": {
-                  "version": "1.1.8",
-                  "date": "2022-03-19",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed missing download project button."
@@ -253,9 +196,6 @@
                "versionType": 0,
                "releaseDate": "Mar 22, 2022",
                "changelog": {
-                  "version": "1.1.9",
-                  "date": "2022-03-22",
-                  "yanked": false
                }
             },
             {
@@ -263,9 +203,6 @@
                "versionType": 0,
                "releaseDate": "Mar 27, 2022",
                "changelog": {
-                  "version": "1.2.0",
-                  "date": "2022-03-27",
-                  "yanked": false
                }
             },
             {
@@ -273,9 +210,6 @@
                "versionType": 0,
                "releaseDate": "Apr 2, 2022",
                "changelog": {
-                  "version": "1.2.1",
-                  "date": "2022-04-02",
-                  "yanked": false
                }
             },
             {
@@ -283,9 +217,6 @@
                "versionType": 0,
                "releaseDate": "Apr 2, 2022",
                "changelog": {
-                  "version": "1.2.2",
-                  "date": "2022-04-02",
-                  "yanked": false
                }
             },
             {
@@ -293,9 +224,6 @@
                "versionType": 1,
                "releaseDate": "Apr 5, 2022",
                "changelog": {
-                  "version": "1.2.3",
-                  "date": "2022-04-05",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Enhanced asset UX."
@@ -313,9 +241,6 @@
                "versionType": 1,
                "releaseDate": "Apr 11, 2022",
                "changelog": {
-                  "version": "1.2.4",
-                  "date": "2022-04-11",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Autolayout alignment support."
@@ -328,9 +253,6 @@
                "versionType": 1,
                "releaseDate": "Apr 13, 2022",
                "changelog": {
-                  "version": "1.2.5",
-                  "date": "2022-04-13",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Auth fix."
@@ -343,9 +265,6 @@
                "versionType": 1,
                "releaseDate": "Apr 15, 2022",
                "changelog": {
-                  "version": "1.2.6",
-                  "date": "2022-04-15",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "HTTP support."
@@ -358,9 +277,6 @@
                "versionType": 1,
                "releaseDate": "May 4, 2022",
                "changelog": {
-                  "version": "1.2.7",
-                  "date": "2022-05-04",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Handling for errors caused by incorrect Figma project permissions."
@@ -373,9 +289,6 @@
                "versionType": 1,
                "releaseDate": "May 23, 2022",
                "changelog": {
-                  "version": "1.2.8",
-                  "date": "2022-05-23",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "BetterButton component: TextMeshPro support."
@@ -404,9 +317,6 @@
                "versionType": 1,
                "releaseDate": "May 31, 2022",
                "changelog": {
-                  "version": "1.2.9",
-                  "date": "2022-05-31",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Handling for CloudFront errors."
@@ -424,9 +334,6 @@
                "versionType": 0,
                "releaseDate": "Jun 1, 2022",
                "changelog": {
-                  "version": "1.3.0",
-                  "date": "2022-06-01",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed error in CanvasDrawer.cs."
@@ -439,9 +346,6 @@
                "versionType": 0,
                "releaseDate": "Jun 5, 2022",
                "changelog": {
-                  "version": "2.0.0",
-                  "date": "2022-06-05",
-                  "yanked": false
                }
             },
             {
@@ -449,9 +353,6 @@
                "versionType": 1,
                "releaseDate": "Nov 3, 2022",
                "changelog": {
-                  "version": "2.0.1",
-                  "date": "2022-11-03",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for importing objects with shadows, without disabling shadows in Figma or using the TrueShadow asset."
@@ -531,9 +432,6 @@
                "versionType": 0,
                "releaseDate": "Nov 7, 2022",
                "changelog": {
-                  "version": "2.0.2",
-                  "date": "2022-11-07",
-                  "yanked": false
                }
             },
             {
@@ -541,9 +439,6 @@
                "versionType": 0,
                "releaseDate": "Nov 9, 2022",
                "changelog": {
-                  "version": "2.0.3",
-                  "date": "2022-11-09",
-                  "yanked": false
                }
             },
             {
@@ -551,9 +446,6 @@
                "versionType": 1,
                "releaseDate": "Nov 17, 2022",
                "changelog": {
-                  "version": "2.0.4",
-                  "date": "2022-11-17",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for the Shapes2D asset."
@@ -571,9 +463,6 @@
                "versionType": 0,
                "releaseDate": "Nov 21, 2022",
                "changelog": {
-                  "version": "2.0.5",
-                  "date": "2022-11-21",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug with importing some sprites."
@@ -592,9 +481,6 @@
                "versionType": 1,
                "releaseDate": "Nov 24, 2022",
                "changelog": {
-                  "version": "2.0.6",
-                  "date": "2022-11-24",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Function to convert multiple regular fonts to TextMeshPro fonts at once."
@@ -612,9 +498,6 @@
                "versionType": 1,
                "releaseDate": "Nov 25, 2022",
                "changelog": {
-                  "version": "2.0.7",
-                  "date": "2022-11-25",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Error when importing the asset in Unity 2019."
@@ -627,9 +510,6 @@
                "versionType": 0,
                "releaseDate": "Dec 1, 2022",
                "changelog": {
-                  "version": "2.0.9",
-                  "date": "2022-12-01",
-                  "yanked": false
                }
             },
             {
@@ -637,9 +517,6 @@
                "versionType": 2,
                "releaseDate": "Sep 18, 2023",
                "changelog": {
-                  "version": "3.0.0",
-                  "date": "2023-09-18",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Automatic prefab creation for identical components and creation of components from existing prefabs during later imports."
@@ -686,9 +563,6 @@
                "versionType": 2,
                "releaseDate": "Sep 19, 2023",
                "changelog": {
-                  "version": "3.0.1",
-                  "date": "2023-09-19",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Saving Figma session."
@@ -707,9 +581,6 @@
                "versionType": 2,
                "releaseDate": "Sep 21, 2023",
                "changelog": {
-                  "version": "3.0.2",
-                  "date": "2023-09-21",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug with font assignment."
@@ -722,9 +593,6 @@
                "versionType": 2,
                "releaseDate": "Sep 21, 2023",
                "changelog": {
-                  "version": "3.0.4",
-                  "date": "2023-09-21",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Text positioning."
@@ -746,9 +614,6 @@
                "versionType": 2,
                "releaseDate": "Oct 4, 2023",
                "changelog": {
-                  "version": "3.0.5",
-                  "date": "2023-10-04",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Removed the project size limit."
@@ -770,9 +635,6 @@
                "versionType": 1,
                "releaseDate": "Oct 04, 2023",
                "changelog": {
-                  "version": "3.0.6",
-                  "date": "2023-10-04",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug with detection of Json.NET on Unity 2022-2023."
@@ -788,9 +650,6 @@
                "versionType": 2,
                "releaseDate": "Oct 26, 2023",
                "changelog": {
-                  "version": "3.0.7",
-                  "date": "2023-10-26",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "RawImage support."
@@ -817,9 +676,6 @@
                "versionType": 0,
                "releaseDate": "Oct 27, 2023",
                "changelog": {
-                  "version": "3.0.8",
-                  "date": "2023-10-27",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "'Unsupported behaviour' error."
@@ -832,9 +688,6 @@
                "versionType": 0,
                "releaseDate": "Nov 10, 2023",
                "changelog": {
-                  "version": "3.0.9",
-                  "date": "2023-11-10",
-                  "yanked": false
                }
             },
             {
@@ -842,9 +695,6 @@
                "versionType": 2,
                "releaseDate": "Feb 23, 2024",
                "changelog": {
-                  "version": "3.0.10",
-                  "date": "2024-02-23",
-                  "yanked": false,
                   "knownIssues": [
                      {
                         "description": "Bug with the display of the asset's interface in the settings tab when a TextMeshPro component is selected."
@@ -879,9 +729,6 @@
                "versionType": 2,
                "releaseDate": "Feb 26, 2024",
                "changelog": {
-                  "version": "3.1.0",
-                  "date": "2024-02-26",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Ability to select during re-import which individual components within frames will be imported or updated, and which will not."
@@ -902,9 +749,6 @@
                "versionType": 2,
                "releaseDate": "Feb 29, 2024",
                "changelog": {
-                  "version": "3.1.1",
-                  "date": "2024-02-29",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Moved the Shared folder into a separate assembly."
@@ -925,9 +769,6 @@
                "versionType": 1,
                "releaseDate": "Mar 05, 2024",
                "changelog": {
-                  "version": "3.1.2",
-                  "date": "2024-03-05",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Improved positioning accuracy for objects with a rotation angle."
@@ -957,9 +798,6 @@
                "versionType": 1,
                "releaseDate": "Mar 06, 2024",
                "changelog": {
-                  "version": "3.1.3",
-                  "date": "2024-03-06",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Other fixes and improvements."
@@ -972,9 +810,6 @@
                "versionType": 0,
                "releaseDate": "Mar 12, 2024",
                "changelog": {
-                  "version": "3.1.4",
-                  "date": "2024-03-12",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug that caused the 'Create Prefabs' function to work incorrectly."
@@ -993,9 +828,6 @@
                "versionType": 0,
                "releaseDate": "Mar 22, 2024",
                "changelog": {
-                  "version": "3.1.5",
-                  "date": "2024-03-22",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Reinstated the FcuButton component and updated relevant sections in both manuals."
@@ -1016,9 +848,6 @@
                "versionType": 2,
                "releaseDate": "May 21, 2024",
                "changelog": {
-                  "version": "3.1.6",
-                  "date": "2024-05-21",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for DTT's Procedural UI asset."
@@ -1047,9 +876,6 @@
                "versionType": 2,
                "releaseDate": "May 23, 2024",
                "changelog": {
-                  "version": "3.1.7",
-                  "date": "2024-05-23",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for DTT's Procedural UI asset."
@@ -1084,9 +910,6 @@
                "versionType": 2,
                "releaseDate": "Jun 1, 2024",
                "changelog": {
-                  "version": "3.1.8",
-                  "date": "2024-06-01",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Exception when manually creating a prefab."
@@ -1102,9 +925,6 @@
                "versionType": 2,
                "releaseDate": "Jun 4, 2024",
                "changelog": {
-                  "version": "3.1.9",
-                  "date": "2024-06-04",
-                  "yanked": false
                }
             },
             {
@@ -1112,9 +932,6 @@
                "versionType": 2,
                "releaseDate": "Jun 10, 2024",
                "changelog": {
-                  "version": "3.1.10",
-                  "date": "2024-06-10",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug with the addition of extra images that are white."
@@ -1127,9 +944,6 @@
                "versionType": 2,
                "releaseDate": "Jun 11, 2024",
                "changelog": {
-                  "version": "3.1.11",
-                  "date": "2024-06-11",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "AspectRatioFitter is added in Unity when a Figma object has the preserve proportions option enabled. See the 'Preserve Ratio Mode' option in the asset's Main Settings."
@@ -1150,9 +964,6 @@
                "versionType": 1,
                "releaseDate": "Jun 12, 2024",
                "changelog": {
-                  "version": "3.1.12",
-                  "date": "2024-06-12",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Improved some asset algorithms."
@@ -1173,9 +984,6 @@
                "versionType": 0,
                "releaseDate": "Jun 20, 2024",
                "changelog": {
-                  "version": "3.1.13",
-                  "date": "2024-06-20",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Exception when creating prefabs: 'ArgumentNullException: Value cannot be null. Parameter name: path2'."
@@ -1191,9 +999,6 @@
                "versionType": 1,
                "releaseDate": "Jul 17, 2024",
                "changelog": {
-                  "version": "3.1.14",
-                  "date": "2024-07-17",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Improved the algorithm for positioning objects with rotation."
@@ -1217,9 +1022,6 @@
                "versionType": 2,
                "releaseDate": "Jul 22, 2024",
                "changelog": {
-                  "version": "3.1.15",
-                  "date": "2024-07-22",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "The issue where the USS file did not get populated with styles during re-import into UI Toolkit."
@@ -1235,9 +1037,6 @@
                "versionType": 2,
                "releaseDate": "Jul 29, 2024",
                "changelog": {
-                  "version": "3.1.16",
-                  "date": "2024-07-29",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for \"Nova UI\"."
@@ -1266,9 +1065,6 @@
                "versionType": 2,
                "releaseDate": "Aug 1, 2024",
                "changelog": {
-                  "version": "3.1.17",
-                  "date": "2024-08-01",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Option to import \"Letter Spacing\"."
@@ -1291,9 +1087,6 @@
                "versionType": 0,
                "releaseDate": "Aug 19, 2024",
                "changelog": {
-                  "version": "3.1.18",
-                  "date": "2024-08-19",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "The \"ProjectCache could not be found\" error."
@@ -1306,9 +1099,6 @@
                "versionType": 2,
                "releaseDate": "Aug 20, 2024",
                "changelog": {
-                  "version": "4.0.0",
-                  "date": "2024-08-20",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for the \"FlexLayoutGroup\" script from the \"Unity UI Extensions\" asset."
@@ -1352,9 +1142,6 @@
                "versionType": 2,
                "releaseDate": "Aug 21, 2024",
                "changelog": {
-                  "version": "4.0.1",
-                  "date": "2024-08-21",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Check for a scene file before auto-creating a scene backup; the 'Destroy Childs' function is unavailable until a new scene is saved to disk."
@@ -1372,9 +1159,6 @@
                "versionType": 0,
                "releaseDate": "Aug 22, 2024",
                "changelog": {
-                  "version": "4.0.2",
-                  "date": "2024-08-22",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "The backup creation function has been added as a separate item in the context menu."
@@ -1406,9 +1190,6 @@
                "versionType": 0,
                "releaseDate": "Aug 26, 2024",
                "changelog": {
-                  "version": "4.1.0",
-                  "date": "2024-08-26",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for ScrollView drawing."
@@ -1432,9 +1213,6 @@
                "versionType": 0,
                "releaseDate": "Aug 27, 2024",
                "changelog": {
-                  "version": "4.2.0",
-                  "date": "2024-08-27",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for Toggle and ToggleGroup drawing."
@@ -1447,9 +1225,6 @@
                "versionType": 2,
                "releaseDate": "Sep 19, 2024",
                "changelog": {
-                  "version": "4.2.1",
-                  "date": "2024-09-19",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Algorithm preventing instantiation of components that should not be instantiated, such as invisible components."
@@ -1465,9 +1240,6 @@
                "versionType": 0,
                "releaseDate": "Sep 20, 2024",
                "changelog": {
-                  "version": "4.2.2",
-                  "date": "2024-09-20",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Error 'VisualScripting does not exist' when importing the asset."
@@ -1480,9 +1252,6 @@
                "versionType": 2,
                "releaseDate": "Nov 05, 2024",
                "changelog": {
-                  "version": "5.0.0",
-                  "date": "2024-11-05",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "SVG support."
@@ -1541,9 +1310,6 @@
                "versionType": 2,
                "releaseDate": "Nov 05, 2024",
                "changelog": {
-                  "version": "5.0.1",
-                  "date": "2024-11-05",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Incorrect display of the frame list in the Inspector."
@@ -1565,9 +1331,6 @@
                "versionType": 2,
                "releaseDate": "Nov 06, 2024",
                "changelog": {
-                  "version": "5.0.2",
-                  "date": "2024-11-06",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "File with a link to the Figma project containing the new examples."
@@ -1603,9 +1366,6 @@
                "versionType": 1,
                "releaseDate": "Nov 08, 2024",
                "changelog": {
-                  "version": "5.0.3",
-                  "date": "2024-11-08",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Optimized sprite downloading on the project's first import; identical sprites are no longer overwritten."
@@ -1629,9 +1389,6 @@
                "versionType": 1,
                "releaseDate": "Nov 14, 2024",
                "changelog": {
-                  "version": "5.1.0",
-                  "date": "2024-11-14",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Script Generator, currently without method generation and UITK support."
@@ -1663,9 +1420,6 @@
                "versionType": 0,
                "releaseDate": "Nov 18, 2024",
                "changelog": {
-                  "version": "5.1.1",
-                  "date": "2024-11-18",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Issue where fonts were not assigned to text components in UITK."
@@ -1678,9 +1432,6 @@
                "versionType": 0,
                "releaseDate": "Nov 23, 2024",
                "changelog": {
-                  "version": "5.1.2",
-                  "date": "2024-11-23",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Errors occurring when the asset is installed before Json.NET is installed."
@@ -1699,9 +1450,6 @@
                "versionType": 0,
                "releaseDate": "Nov 25, 2024",
                "changelog": {
-                  "version": "5.2.0",
-                  "date": "2024-11-25",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "New setting for sprite size limits, allowing configuration of the maximum size for downloadable sprites."
@@ -1728,9 +1476,6 @@
                   "type": 2
                },
                "changelog": {
-                  "version": "5.2.1",
-                  "date": "2024-11-28",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Authentication algorithm for manual token entry."
@@ -1748,9 +1493,6 @@
                "versionType": 2,
                "releaseDate": "Dec 03, 2024",
                "changelog": {
-                  "version": "5.2.2",
-                  "date": "2024-12-03",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Special text messages from the developer displayed at the bottom of the asset interface for all versions or specific asset versions."
@@ -1763,9 +1505,6 @@
                "versionType": 2,
                "releaseDate": "Dec 09, 2024",
                "changelog": {
-                  "version": "5.2.3",
-                  "date": "2024-12-09",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Error 'This instance has already started one or more requests' during authorization in Figma on macOS and other platforms."
@@ -1778,9 +1517,6 @@
                "versionType": 2,
                "releaseDate": "Dec 26, 2024",
                "changelog": {
-                  "version": "5.2.4",
-                  "date": "2024-12-26",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Serialization of OnClick methods for UITK in the Script Generator tab."
@@ -1801,9 +1537,6 @@
                "versionType": 0,
                "releaseDate": "Dec 27, 2024",
                "changelog": {
-                  "version": "5.2.5",
-                  "date": "2024-12-27",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "'UitkButton could not be found' error when importing the asset."
@@ -1816,9 +1549,6 @@
                "versionType": 0,
                "releaseDate": "Jan 07, 2025",
                "changelog": {
-                  "version": "5.2.6",
-                  "date": "2025-01-07",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug where the last frame in the frame list was not displayed during import."
@@ -1834,9 +1564,6 @@
                "versionType": 0,
                "releaseDate": "Jan 13, 2025",
                "changelog": {
-                  "version": "5.3.0",
-                  "date": "2025-01-13",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Refactored component rotation algorithms."
@@ -1857,9 +1584,6 @@
                "versionType": 0,
                "releaseDate": "Jan 24, 2025",
                "changelog": {
-                  "version": "5.3.1",
-                  "date": "2025-01-24",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Error installing the import extension for UITK on Unity versions older than Unity 6."
@@ -1872,9 +1596,6 @@
                "versionType": 0,
                "releaseDate": "Jan 27, 2025",
                "changelog": {
-                  "version": "5.3.2",
-                  "date": "2025-01-27",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Refactored 'GAMEVIEW' positioning mode."
@@ -1887,9 +1608,6 @@
                "versionType": 0,
                "releaseDate": "Feb 10, 2025",
                "changelog": {
-                  "version": "5.4.0",
-                  "date": "2025-02-10",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for D.A. Button asset."
@@ -1920,9 +1638,6 @@
                "versionType": 2,
                "releaseDate": "Feb 19, 2025",
                "changelog": {
-                  "version": "5.4.1",
-                  "date": "2025-02-19",
-                  "yanked": false
                }
             },
             {
@@ -1930,9 +1645,6 @@
                "versionType": 2,
                "releaseDate": "Feb 19, 2025",
                "changelog": {
-                  "version": "5.4.2",
-                  "date": "2025-02-19",
-                  "yanked": false
                }
             },
             {
@@ -1940,9 +1652,6 @@
                "versionType": 2,
                "releaseDate": "Feb 19, 2025",
                "changelog": {
-                  "version": "5.4.3",
-                  "date": "2025-02-19",
-                  "yanked": false
                }
             },
             {
@@ -1950,9 +1659,6 @@
                "versionType": 0,
                "releaseDate": "Feb 26, 2025",
                "changelog": {
-                  "version": "5.5.1",
-                  "date": "2025-02-26",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated the \"Manual for developers\"."
@@ -2007,9 +1713,6 @@
                "versionType": 0,
                "releaseDate": "Apr 1, 2025",
                "changelog": {
-                  "version": "5.5.2",
-                  "date": "2025-04-01",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Search for inactive objects in SpriteRemoverWindow."
@@ -2038,9 +1741,6 @@
                "versionType": 2,
                "releaseDate": "May 11, 2025",
                "changelog": {
-                  "version": "5.6.1",
-                  "date": "2025-05-11",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Figma object info is now included in Import Events."
@@ -2063,9 +1763,6 @@
                "versionType": 2,
                "releaseDate": "May 12, 2025",
                "changelog": {
-                  "version": "5.6.2",
-                  "date": "2025-05-12",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Improved the message shown when Newtonsoft.Json is missing."
@@ -2078,9 +1775,6 @@
                "versionType": 1,
                "releaseDate": "May 14, 2025",
                "changelog": {
-                  "version": "5.6.3",
-                  "date": "2025-05-14",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "'Graphics.CopyTexture' error."
@@ -2093,9 +1787,6 @@
                "versionType": 0,
                "releaseDate": "May 26, 2025",
                "changelog": {
-                  "version": "5.6.4",
-                  "date": "2025-05-26",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Improved AutoLayout import quality."
@@ -2111,9 +1802,6 @@
                "versionType": 2,
                "releaseDate": "Jul 2, 2025",
                "changelog": {
-                  "version": "5.7.0",
-                  "date": "2025-07-02",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Ability to import all buttons in SpriteSwap mode."
@@ -2136,9 +1824,6 @@
                "versionType": 1,
                "releaseDate": "Jul 2, 2025",
                "changelog": {
-                  "version": "5.7.1",
-                  "date": "2025-07-02",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Error \"'ButtonSettings' does not contain a definition for 'TransitionType'\" during asset import."
@@ -2151,9 +1836,6 @@
                "versionType": 0,
                "releaseDate": "Jul 7, 2025",
                "changelog": {
-                  "version": "5.7.2",
-                  "date": "2025-07-07",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "NullReferenceException in the SetupDAButton method."
@@ -2166,9 +1848,6 @@
                "versionType": 0,
                "releaseDate": "Jul 10, 2025",
                "changelog": {
-                  "version": "5.7.3",
-                  "date": "2025-07-10",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Font assignment algorithm."
@@ -2181,9 +1860,6 @@
                "versionType": 1,
                "releaseDate": "Jul 12, 2025",
                "changelog": {
-                  "version": "5.7.4",
-                  "date": "2025-07-12",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Issue where, during screen import using previously created prefabs, some prefabs were instantiated outside the Canvas."
@@ -2196,9 +1872,6 @@
                "versionType": 1,
                "releaseDate": "Jul 17, 2025",
                "changelog": {
-                  "version": "5.7.5",
-                  "date": "2025-07-17",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Hashing algorithm bug that caused some sprites to overwrite each other."
@@ -2214,9 +1887,6 @@
                "versionType": 1,
                "releaseDate": "Jul 18, 2025",
                "changelog": {
-                  "version": "5.8.0",
-                  "date": "2025-07-18",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for importing the Selected state in the D.A. Button asset."
@@ -2244,9 +1914,6 @@
                "versionType": 0,
                "releaseDate": "Jul 24, 2025",
                "changelog": {
-                  "version": "5.8.1",
-                  "date": "2025-07-24",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug where Figma Converter failed to register in the Scripting Define Symbols, preventing the UITK Converter from working."
@@ -2262,9 +1929,6 @@
                "versionType": 0,
                "releaseDate": "Sep 25, 2025",
                "changelog": {
-                  "version": "5.8.3",
-                  "date": "2025-09-25",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "'Invalid scopes for app' error during browser-based authorization."
@@ -2277,9 +1941,6 @@
                "versionType": 2,
                "releaseDate": "Nov 14, 2025",
                "changelog": {
-                  "version": "6.0.0",
-                  "date": "2025-11-14",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Duplicate Sprite Remover with advanced detection and grouping of duplicate sprites during import."
@@ -2337,9 +1998,6 @@
                "versionType": 2,
                "releaseDate": "Nov 14, 2025",
                "changelog": {
-                  "version": "6.0.1",
-                  "date": "2025-11-14",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Scripts required to fix the error in \"Figma to UI Toolkit Converter.\""
@@ -2352,9 +2010,6 @@
                "versionType": 2,
                "releaseDate": "Nov 24, 2025",
                "changelog": {
-                  "version": "6.1.0",
-                  "date": "2025-11-24",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Handling of request limits for Figma's server; a window now provides full details and options to retry or stop the import."
@@ -2386,9 +2041,6 @@
                "versionType": 2,
                "releaseDate": "Nov 26, 2025",
                "changelog": {
-                  "version": "6.1.1",
-                  "date": "2025-11-26",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Bug where some sprites were downloaded instead of drawn procedurally when importing with the MPUiKit integration."
@@ -2404,9 +2056,6 @@
                "versionType": 2,
                "releaseDate": "Nov 26, 2025",
                "changelog": {
-                  "version": "6.1.2",
-                  "date": "2025-11-26",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "FileNotFoundException no longer stops the import."
@@ -2419,9 +2068,6 @@
                "versionType": 2,
                "releaseDate": "Nov 26, 2025",
                "changelog": {
-                  "version": "6.1.3",
-                  "date": "2025-11-26",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Issue related to downloading images instead of procedurally generating them with MPUIKit."
@@ -2434,9 +2080,6 @@
                "versionType": 1,
                "releaseDate": "Nov 29, 2025",
                "changelog": {
-                  "version": "6.2.0",
-                  "date": "2025-11-29",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Multi-language support for all objects during import; sprites and GameObjects can now contain characters from any language."
@@ -2465,9 +2108,6 @@
                "versionType": 0,
                "releaseDate": "Nov 30, 2025",
                "changelog": {
-                  "version": "6.2.1",
-                  "date": "2025-11-30",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "NullReferenceException when opening the Settings window, which caused it not to open."
@@ -2488,9 +2128,6 @@
                "versionType": 2,
                "releaseDate": "Jan 14, 2026",
                "changelog": {
-                  "version": "6.4.2",
-                  "date": "2026-01-14",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Three items in List<ContentItem> in GetFrameListTool were replaced with a single item."
@@ -2508,9 +2145,6 @@
                "versionType": 2,
                "releaseDate": "Jan 16, 2026",
                "changelog": {
-                  "version": "6.4.3",
-                  "date": "2026-01-16",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed a bug in the SerializedDictionary inspector that prevented editing serialized values."
@@ -2523,9 +2157,6 @@
                "versionType": 2,
                "releaseDate": "Jan 16, 2026",
                "changelog": {
-                  "version": "6.4.4",
-                  "date": "2026-01-16",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed a NullReferenceException in ProjectImporterBase.cs related to \"groups\" being null."
@@ -2538,9 +2169,6 @@
                "versionType": 0,
                "releaseDate": "Jan 18, 2026",
                "changelog": {
-                  "version": "6.4.5",
-                  "date": "2026-01-18",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "A bug during asset import in projects where Newtonsoft.Json is missing."
@@ -2559,9 +2187,6 @@
                "versionType": 0,
                "releaseDate": "Jan 19, 2026",
                "changelog": {
-                  "version": "6.4.6",
-                  "date": "2026-01-19",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed a bug where some images that were supposed to be imported as whole were imported as split."
@@ -2574,9 +2199,6 @@
                "versionType": 2,
                "releaseDate": "Mar 15, 2026",
                "changelog": {
-                  "version": "7.0.0",
-                  "date": "2026-03-15",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for importing from a local ZIP copy of a project (offline import), which helps avoid the 429 error; The feature is already implemented, but creating the ZIP archive requires a Figma plugin that has not been released yet; A notification about its release will appear in the main asset interface once it becomes available."
@@ -2647,9 +2269,6 @@
                "releaseDate": "Apr 21, 2026",
                "description": "NOTE:\n• Before installing this version, delete the \"D.A. Assets\" folder;\n• Support for D.A. Localizator is temporarily disabled. It will return as soon as the new D.A. Localizator release is completed;\n\nADDED:\n• A new solution for the import issue affecting child objects with complex fills when using UI.Image, described in rule 6 of the Layout Rules in the Designer Manual. The asset can now generate sprites on its own that replicate fills, strokes, and effects for such components, which prevents them from being skipped during import. This does not work for all objects, and you must still follow rule 6 if issues occur with similar parent components;\n• The ImageOverflow asset is now included with the Figma Converter, since some sprites described in the previous changelog item require their effects to be rendered outside the RectTransform;\n\nIMPROVED:\n• The sprite downloading algorithm. If the total sprite size, including scale, exceeds the limit, the request is now automatically split into smaller batches of sprites, or the scale of individual problematic sprites is reduced. This may increase sprite import time for projects with high-resolution frames, but it makes the import process more stable;\n• Smarter matching of the corresponding TTF/TMP/UITK font asset by family, weight, italic, style name, and PostScript name, instead of relying only on the exact file name;\n\nCHANGED:\n• JSONNET_PLASTIC_EXISTS was replaced with JSONNET_EXISTS in a significant portion of JSON models and loaders. Newtonsoft.Json is now installed automatically via UPM if it is missing when the asset is imported into an empty project;\n\nFIXED:\n• Compatibility with UniText;\n• A project build error caused by the Editor dependency;\n• An issue where selecting folders in the asset settings saved absolute paths instead of relative ones.",
                "changelog": {
-                  "version": "7.1.0",
-                  "date": "2026-04-21",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "A new solution for the import issue affecting child objects with complex fills when using UI.Image, described in rule 6 of the Layout Rules in the Designer Manual. The asset can now generate sprites on its own that replicate fills, strokes, and effects for such components, which prevents them from being skipped during import. This does not work for all objects, and you must still follow rule 6 if issues occur with similar parent components."
@@ -2702,9 +2321,6 @@
                "versionType": 0,
                "releaseDate": "Apr 01, 2025",
                "changelog": {
-                  "version": "1.0.0",
-                  "date": "2025-04-01",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "First release."
@@ -2717,9 +2333,6 @@
                "versionType": 1,
                "releaseDate": "Jul 18, 2025",
                "changelog": {
-                  "version": "2.0.0",
-                  "date": "2025-07-18",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for navigation, OnSelect, and OnDeselect events has been added."
@@ -2748,9 +2361,6 @@
                "versionType": 0,
                "releaseDate": "Nov 14, 2025",
                "changelog": {
-                  "version": "3.0.0",
-                  "date": "2025-11-14",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "The asset's internal interface has been migrated to UI Toolkit; this does not affect Canvas compatibility."
@@ -2767,9 +2377,6 @@
                "releaseDate": "Jan 18, 2026",
                "description": "• Updated the DA-Shared folder.",
                "changelog": {
-                  "version": "3.0.1",
-                  "date": "2026-01-18",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated the DA-Shared folder."
@@ -2789,9 +2396,6 @@
                "versionType": 1,
                "releaseDate": "Feb 14, 2024",
                "changelog": {
-                  "version": "1.0.0",
-                  "date": "2024-02-14",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "First release."
@@ -2804,9 +2408,6 @@
                "versionType": 1,
                "releaseDate": "Feb 23, 2024",
                "changelog": {
-                  "version": "1.0.1",
-                  "date": "2024-02-23",
-                  "yanked": false
                }
             },
             {
@@ -2814,9 +2415,6 @@
                "versionType": 1,
                "releaseDate": "Mar 05, 2024",
                "changelog": {
-                  "version": "1.0.2",
-                  "date": "2024-03-05",
-                  "yanked": false
                }
             },
             {
@@ -2824,9 +2422,6 @@
                "versionType": 1,
                "releaseDate": "Mar 06, 2024",
                "changelog": {
-                  "version": "1.0.3",
-                  "date": "2024-03-06",
-                  "yanked": false
                }
             },
             {
@@ -2834,9 +2429,6 @@
                "versionType": 0,
                "releaseDate": "Mar 12, 2024",
                "changelog": {
-                  "version": "1.0.4",
-                  "date": "2024-03-12",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed an error in 'ScriptCreator.cs' for the 2019 version of Unity."
@@ -2849,9 +2441,6 @@
                "versionType": 2,
                "releaseDate": "May 21, 2024",
                "changelog": {
-                  "version": "1.0.5",
-                  "date": "2024-05-21",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Added support for 'UITK Element Linker' asset."
@@ -2872,9 +2461,6 @@
                "versionType": 2,
                "releaseDate": "May 23, 2024",
                "changelog": {
-                  "version": "1.0.6",
-                  "date": "2024-05-23",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Added support for 'UITK Element Linker' asset."
@@ -2903,9 +2489,6 @@
                "versionType": 2,
                "releaseDate": "Jun 1, 2024",
                "changelog": {
-                  "version": "1.0.7",
-                  "date": "2024-06-01",
-                  "yanked": false
                }
             },
             {
@@ -2913,9 +2496,6 @@
                "versionType": 2,
                "releaseDate": "Jun 10, 2024",
                "changelog": {
-                  "version": "1.0.8",
-                  "date": "2024-06-10",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updating compatibility with the latest version of Figma Converter for Unity."
@@ -2928,9 +2508,6 @@
                "versionType": 2,
                "releaseDate": "Jun 11, 2024",
                "changelog": {
-                  "version": "1.0.9",
-                  "date": "2024-06-11",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Errors when linking objects in IndexNames and GUID modes."
@@ -2943,9 +2520,6 @@
                "versionType": 2,
                "releaseDate": "Jul 17, 2024",
                "changelog": {
-                  "version": "1.0.10",
-                  "date": "2024-07-17",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updating compatibility with the latest version of Figma Converter for Unity."
@@ -2958,9 +2532,6 @@
                "versionType": 1,
                "releaseDate": "Jul 19, 2024",
                "changelog": {
-                  "version": "1.0.11",
-                  "date": "2024-07-19",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Requires Figma Converter for Unity version 3.1.15. Fixed the issue where the USS file did not get populated with styles during re-import into UI Toolkit."
@@ -2973,9 +2544,6 @@
                "versionType": 0,
                "releaseDate": "Aug 20, 2024",
                "changelog": {
-                  "version": "1.0.13",
-                  "date": "2024-08-20",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updating compatibility with the latest version of Figma Converter for Unity."
@@ -2993,9 +2561,6 @@
                "versionType": 2,
                "releaseDate": "Nov 05, 2024",
                "changelog": {
-                  "version": "1.0.14",
-                  "date": "2024-11-05",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updating compatibility with the latest version of Figma Converter for Unity."
@@ -3008,9 +2573,6 @@
                "versionType": 2,
                "releaseDate": "Nov 18, 2024",
                "changelog": {
-                  "version": "1.0.15",
-                  "date": "2024-11-18",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Compatibility with the latest version of Figma Converter for Unity."
@@ -3028,9 +2590,6 @@
                "versionType": 0,
                "releaseDate": "Nov 23, 2024",
                "changelog": {
-                  "version": "1.0.16",
-                  "date": "2024-11-23",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Unity freeze during layout import."
@@ -3043,9 +2602,6 @@
                "versionType": 0,
                "releaseDate": "Dec 25, 2024",
                "changelog": {
-                  "version": "1.1.0",
-                  "date": "2024-12-25",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for D.A. Localizator asset."
@@ -3066,9 +2622,6 @@
                "versionType": 0,
                "releaseDate": "Jan 13, 2025",
                "changelog": {
-                  "version": "1.2.0",
-                  "date": "2025-01-13",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Support for horizontal and vertical layouts."
@@ -3086,9 +2639,6 @@
                "versionType": 0,
                "releaseDate": "Jan 24, 2025",
                "changelog": {
-                  "version": "1.2.1",
-                  "date": "2025-01-24",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Compatibility with versions older than Unity 6."
@@ -3101,9 +2651,6 @@
                "versionType": 0,
                "releaseDate": "Jul 18, 2025",
                "changelog": {
-                  "version": "1.2.3",
-                  "date": "2025-07-18",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated compatibility with Figma Converter for Unity."
@@ -3116,9 +2663,6 @@
                "versionType": 1,
                "releaseDate": "Nov 14, 2025",
                "changelog": {
-                  "version": "1.3.0",
-                  "date": "2025-11-14",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated compatibility with Figma Converter for Unity."
@@ -3131,9 +2675,6 @@
                "versionType": 0,
                "releaseDate": "Nov 29, 2025",
                "changelog": {
-                  "version": "1.3.2",
-                  "date": "2025-11-29",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated compatibility with Figma Converter for Unity."
@@ -3146,9 +2687,6 @@
                "versionType": 0,
                "releaseDate": "Jan 13, 2026",
                "changelog": {
-                  "version": "1.3.3",
-                  "date": "2026-01-13",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated compatibility with Figma Converter for Unity."
@@ -3161,9 +2699,6 @@
                "versionType": 1,
                "releaseDate": "Mar 16, 2026",
                "changelog": {
-                  "version": "2.0.0",
-                  "date": "2026-03-16",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Component template system via ComponentTemplateWriter and <ui:Instance>: — Figma INSTANCE / COMPONENT nodes are now exported as separate template files inside Resources/ instead of being expanded inline into the main UXML; — parent UXML files now reference component templates via <ui:Instance>, while visual styles remain inside the generated template file."
@@ -3237,9 +2772,6 @@
                "releaseDate": "Apr 21, 2026",
                "description": "FIXED:\n• Fixed the positioning of certain elements inside Auto Layouts.",
                "changelog": {
-                  "version": "2.0.2",
-                  "date": "2026-04-21",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed the positioning of certain elements inside Auto Layouts."
@@ -3259,9 +2791,6 @@
                "versionType": 1,
                "releaseDate": "Oct 31, 2024",
                "changelog": {
-                  "version": "1.0.0",
-                  "date": "2024-10-31",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "First release."
@@ -3274,9 +2803,6 @@
                "versionType": 0,
                "releaseDate": "Dec 13, 2024",
                "changelog": {
-                  "version": "1.0.1",
-                  "date": "2024-12-13",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed NullReferenceException when opening an asset in the inspector."
@@ -3289,9 +2815,6 @@
                "versionType": 0,
                "releaseDate": "Feb 9, 2025",
                "changelog": {
-                  "version": "1.0.2",
-                  "date": "2025-02-09",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Changes related to the \"Shared\" folder. If you are not using Figma Converter for Unity, you can ignore this update."
@@ -3304,9 +2827,6 @@
                "versionType": 1,
                "releaseDate": "May 23, 2025",
                "changelog": {
-                  "version": "2.0.0",
-                  "date": "2025-05-23",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "A limit on the number of localization requests per frame has been added to prevent performance spikes. It is disabled by default, since no spikes were observed even when localizing 10,000 components."
@@ -3327,9 +2847,6 @@
                "versionType": 0,
                "releaseDate": "Jul 18, 2025",
                "changelog": {
-                  "version": "2.0.1",
-                  "date": "2025-07-18",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "The minimum supported Unity version has been changed from 2019.1 to 2020.1."
@@ -3347,9 +2864,6 @@
                "versionType": 0,
                "releaseDate": "Nov 14, 2025",
                "changelog": {
-                  "version": "3.0.0",
-                  "date": "2025-11-14",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "The asset's internal interface has been migrated to UI Toolkit."
@@ -3366,9 +2880,6 @@
                "releaseDate": "Jan 18, 2026",
                "description": "• Updated the DA-Shared folder.",
                "changelog": {
-                  "version": "3.0.1",
-                  "date": "2026-01-18",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "Updated the DA-Shared folder."
@@ -3388,9 +2899,6 @@
                "versionType": 1,
                "releaseDate": "May 2, 2024",
                "changelog": {
-                  "version": "0.0.1",
-                  "date": "2024-05-02",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "First release."
@@ -3403,9 +2911,6 @@
                "versionType": 1,
                "releaseDate": "May 3, 2024",
                "changelog": {
-                  "version": "0.0.2",
-                  "date": "2024-05-03",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Preprocessor directives have been added. The minimum version of the asset is 2021.1."
@@ -3418,9 +2923,6 @@
                "versionType": 1,
                "releaseDate": "May 5, 2024",
                "changelog": {
-                  "version": "0.0.3",
-                  "date": "2024-05-05",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Added example scene. The object search algorithm has been fixed. Added the ability to edit multiple selected objects in the Inspector at the same time."
@@ -3433,9 +2935,6 @@
                "versionType": 1,
                "releaseDate": "May 17, 2024",
                "changelog": {
-                  "version": "0.0.4",
-                  "date": "2024-05-17",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "The UX for selecting the linking type has been changed. Now, instead of the two modes, Name and Guid, you can choose one of four states: 1. Name - binding by unique name (works if the name is truly unique); 2. IndexNames - binding by indexes and/or names of the element hierarchy; 3. Guid - binding by unique GUID (the uniqueness of the GUID is guaranteed); 4. Guids - binding by the hierarchy of GUIDs."
@@ -3462,9 +2961,6 @@
                "versionType": 1,
                "releaseDate": "May 29, 2024",
                "changelog": {
-                  "version": "0.0.5",
-                  "date": "2024-05-29",
-                  "yanked": false,
                   "fixed": [
                      {
                         "description": "Fixed a build error due to specifying an incorrect \"includePlatforms\" value. Added missing namespace. Added manual. Fixed namespaces in commented files."
@@ -3477,9 +2973,6 @@
                "versionType": 1,
                "releaseDate": "Jun 5, 2024",
                "changelog": {
-                  "version": "0.0.6",
-                  "date": "2024-06-05",
-                  "yanked": false,
                   "changed": [
                      {
                         "description": "The minimum version of Unity is defined as 2021.3 instead of 2021.1."
@@ -3492,9 +2985,6 @@
                "versionType": 1,
                "releaseDate": "Nov 5, 2024",
                "changelog": {
-                  "version": "2.0.0",
-                  "date": "2024-11-05",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Unity 6 support has been added."
@@ -3507,9 +2997,6 @@
                "versionType": 0,
                "releaseDate": "Dec 11, 2024",
                "changelog": {
-                  "version": "2.0.1",
-                  "date": "2024-12-11",
-                  "yanked": false,
                   "removed": [
                      {
                         "description": "The unnecessary files left from version 1.x have been removed."
@@ -3523,9 +3010,6 @@
                "releaseDate": "Nov 14, 2025",
                "description": "• Added binding functionality. The manual will be updated later.",
                "changelog": {
-                  "version": "3.0.0",
-                  "date": "2025-11-14",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Added binding functionality. The manual will be updated later."
@@ -3545,9 +3029,6 @@
                "versionType": 1,
                "releaseDate": "Jun 26, 2024",
                "changelog": {
-                  "version": "1.0.0",
-                  "date": "2024-06-26",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "First release."
@@ -3561,9 +3042,6 @@
                "releaseDate": "Nov 14, 2025",
                "description": "• Added a dependency on the Shared folder (included with the asset) and created the asset config file.\n• The foundation for localizing the asset's interface into multiple languages has been laid and will be completed in the next update.",
                "changelog": {
-                  "version": "1.1.0",
-                  "date": "2025-11-14",
-                  "yanked": false,
                   "added": [
                      {
                         "description": "Added a dependency on the Shared folder (included with the asset) and created the asset config file."
