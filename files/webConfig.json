@@ -5,8 +5,14 @@
          "assetType": 1,
          "oldVersionDaysCount": 28,
          "developerMessage": {
-            "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you need to upgrade your Figma plan to Pro (full-seat/dev) or higher.\n\nYou also need to move the project you are importing into a Pro team so that Pro limits apply to it.\n\nIf you receive a 429 error when importing a project that is not owned by your account, move the frames from that project into your own project that is located in a Pro team, and then try importing again.\n\n---------\n\nIn the near future, the asset author is preparing a legal solution that will allow avoiding the 429 error on free Figma plans.\n\nThis solution will be released as a separate tool that acts as a supporting utility for the main asset, Figma Converter for Unity.\n\nThe release will be announced in this information block and on the Discord server.",
-            "type": 2
+            "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you no longer need to buy a Figma Pro subscription to extend the limits.\n\nYou can use the auxiliary tool \"Offline Converter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) to solve this problem.\n\nThe scheme is as follows:\n\n1. Create a ZIP copy of the Figma project through \"Offline Converter\".\n2. Import this ZIP archive through Figma Converter (you need to set the import mode to \"Zip\").\n3. Import the project without running into limits.\n\nYou can create a ZIP copy of the project an unlimited number of times.\n\nIf you already have a Figma Pro subscription and you do not plan to cancel it, you should not have the 429 error if the imported project is located in a Pro team.",
+            "type": 2,
+            "links": [
+               {
+                  "id": "offlineconverter",
+                  "url": "https://shorturl.at/BfvcM"
+               }
+            ]
          },
          "versions": [
             {
@@ -25,8 +31,7 @@
                "version": "1.0.1",
                "versionType": 0,
                "releaseDate": "Aug 17, 2021",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.2",
@@ -67,8 +72,7 @@
                "version": "1.0.4",
                "versionType": 0,
                "releaseDate": "Sep 20, 2021",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.5",
@@ -86,78 +90,67 @@
                "version": "1.0.6",
                "versionType": 1,
                "releaseDate": "Nov 29, 2021",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.7",
                "versionType": 1,
                "releaseDate": "Dec 10, 2021",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.8",
                "versionType": 0,
                "releaseDate": "Jan 6, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.9",
                "versionType": 1,
                "releaseDate": "Jan 15, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.0",
                "versionType": 1,
                "releaseDate": "Feb 9, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.1",
                "versionType": 0,
                "releaseDate": "Feb 13, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.2",
                "versionType": 1,
                "releaseDate": "Feb 15, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.3",
                "versionType": 0,
                "releaseDate": "Feb 17, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.4",
                "versionType": 0,
                "releaseDate": "Feb 20, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.5",
                "versionType": 1,
                "releaseDate": "Mar 8, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.6",
                "versionType": 0,
                "releaseDate": "Mar 10, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.1.7",
@@ -195,29 +188,25 @@
                "version": "1.1.9",
                "versionType": 0,
                "releaseDate": "Mar 22, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.2.0",
                "versionType": 0,
                "releaseDate": "Mar 27, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.2.1",
                "versionType": 0,
                "releaseDate": "Apr 2, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.2.2",
                "versionType": 0,
                "releaseDate": "Apr 2, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.2.3",
@@ -345,8 +334,7 @@
                "version": "2.0.0",
                "versionType": 0,
                "releaseDate": "Jun 5, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "2.0.1",
@@ -431,15 +419,13 @@
                "version": "2.0.2",
                "versionType": 0,
                "releaseDate": "Nov 7, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "2.0.3",
                "versionType": 0,
                "releaseDate": "Nov 9, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "2.0.4",
@@ -509,8 +495,7 @@
                "version": "2.0.9",
                "versionType": 0,
                "releaseDate": "Dec 1, 2022",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "3.0.0",
@@ -687,8 +672,7 @@
                "version": "3.0.9",
                "versionType": 0,
                "releaseDate": "Nov 10, 2023",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "3.0.10",
@@ -924,8 +908,7 @@
                "version": "3.1.9",
                "versionType": 2,
                "releaseDate": "Jun 4, 2024",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "3.1.10",
@@ -1637,22 +1620,19 @@
                "version": "5.4.1",
                "versionType": 2,
                "releaseDate": "Feb 19, 2025",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "5.4.2",
                "versionType": 2,
                "releaseDate": "Feb 19, 2025",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "5.4.3",
                "versionType": 2,
                "releaseDate": "Feb 19, 2025",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "5.5.1",
@@ -2308,6 +2288,126 @@
                      }
                   ]
                }
+            },
+            {
+               "version": "7.2.0",
+               "versionType": 0,
+               "releaseDate": "May 05, 2026",
+               "description": "ADDED:\n• Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error 429 will no longer occur. Link to the Offline Converter tool: (https://www.figma.com/community/plugin/1611511023937342139/offline-figma-converter-for-unity)\n• New MCP tools that will make your import process even more automated. The GetSyncHelperReasonsTool will help your Agent understand why a particular component was imported in that specific way.\n• D.A. Outline support for drawable strokes on supported UGUI image components.\n• UniText font-stack generation, mixed-font run handling, and generated combined UniText font stacks.\n• Main Settings controls for SyncHelper cleanup after import and the temporarily disabled LayoutUpdater option.\n• Ability to copy text from the custom HelpBox that can be seen in some parts of the asset interface.\n\nCHANGED:\n• Updated the GitBook manual: added a section on working with the Offline Converter.\n• Renamed the root asset folder from \"D.A. Assets\" to \"DA-Assets\".\n• Reworked sprite identity hashing into separate object and render hashes for more accurate sprite deduplication.\n• Updated Figma node parsing to include cornerSmoothing and itemReverseZIndex.\n• Reworked UGUI auto-layout handling for reverse draw order, absolute-positioned children, layout grow, wrap sizing, background-like children, and Figma SCALE constraints.\n• Improved generated/downloaded sprite reuse by selecting the largest representative sprite source and validating existing sprite dimensions before reuse.\n• Updated sprite colorization to handle generated sprites, avoid recoloring the same asset path multiple times, and reimport updated assets.\n• Reworked UniText styling so bold/italic modifiers are applied only when the resolved font face needs them, links handle interactivity separately from visual styling, and gradients can come from graphic fill data.\n• Updated ImageLinear material/shader alpha handling with configurable alpha gamma and dithering.\n\nFIXED:\n• Sprite duplicate cleanup so imports can pause, resolve default or keep-all choices programmatically, close the duplicate finder when resolved, and redraw objects whose sprite path changed.\n• Sprite transform behavior for clipped render bounds, clip-content parents, and sprite render bounds that should not expand layout.\n• AutoSlice9 border calculation for rounded vector rectangles, effects, and solid fill/stroke cases.\n• Opaque generated PNGs with alpha rounding artifacts by normalizing near-opaque alpha values.\n• Linear image material assignment so it is used only for sprites that actually contain transparency.\n• Font matching and download naming for Google Fonts subsets, TMP, UITK, and UniText font generation.\n• Settings window refresh by updating serialized data and clamping the selected tab index.\n\nREMOVED:\n• The legacy FcuInfoTool MCP tool and asset.",
+               "changelog": {
+                  "added": [
+                     {
+                        "description": "Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error 429 will no longer occur. Link to the Offline Converter tool: (https://www.figma.com/community/plugin/1611511023937342139/offline-figma-converter-for-unity).",
+                        "richText": "Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error <code>429</code> will no longer occur. Link to the Offline Converter tool: (<link=\"offlineconverter\"><color=#62A8FF><u>https://www.figma.com/community/plugin/1611511023937342139/offline-figma-converter-for-unity</u></color></link>).",
+                        "links": [
+                           {
+                              "id": "offlineconverter",
+                              "url": "https://www.figma.com/community/plugin/1611511023937342139/offline-figma-converter-for-unity"
+                           }
+                        ]
+                     },
+                     {
+                        "description": "New MCP tools that will make your import process even more automated. The GetSyncHelperReasonsTool will help your Agent understand why a particular component was imported in that specific way.",
+                        "richText": "New <code>MCP</code> tools that will make your import process even more automated. The <code>GetSyncHelperReasonsTool</code> will help your Agent understand why a particular component was imported in that specific way."
+                     },
+                     {
+                        "description": "D.A. Outline support for drawable strokes on supported UGUI image components.",
+                        "richText": "<code>D.A. Outline</code> support for drawable strokes on supported <code>UGUI</code> image components."
+                     },
+                     {
+                        "description": "UniText font-stack generation, mixed-font run handling, and generated combined UniText font stacks.",
+                        "richText": "<code>UniText</code> font-stack generation, mixed-font run handling, and generated combined <code>UniText</code> font stacks."
+                     },
+                     {
+                        "description": "Main Settings controls for SyncHelper cleanup after import and the temporarily disabled LayoutUpdater option.",
+                        "richText": "Main Settings controls for <code>SyncHelper</code> cleanup after import and the temporarily disabled <code>LayoutUpdater</code> option."
+                     },
+                     {
+                        "description": "Ability to copy text from the custom HelpBox that can be seen in some parts of the asset interface.",
+                        "richText": "Ability to copy text from the custom <code>HelpBox</code> that can be seen in some parts of the asset interface."
+                     }
+                  ],
+                  "changed": [
+                     {
+                        "description": "Updated the GitBook manual: added a section on working with the Offline Converter.",
+                        "richText": "Updated the <code>GitBook</code> manual: added a section on working with the <link=\"offlineconverter\"><color=#62A8FF><u>Offline Converter</u></color></link>.",
+                        "links": [
+                           {
+                              "id": "offlineconverter",
+                              "url": "https://www.figma.com/community/plugin/1611511023937342139/offline-figma-converter-for-unity"
+                           }
+                        ]
+                     },
+                     {
+                        "description": "Renamed the root asset folder from \"D.A. Assets\" to \"DA-Assets\".",
+                        "richText": "Renamed the root asset folder from <code>D.A. Assets</code> to <code>DA-Assets</code>."
+                     },
+                     {
+                        "description": "Reworked sprite identity hashing into separate object and render hashes for more accurate sprite deduplication.",
+                        "richText": "Reworked sprite identity hashing into separate object and render hashes for more accurate sprite deduplication."
+                     },
+                     {
+                        "description": "Updated Figma node parsing to include cornerSmoothing and itemReverseZIndex.",
+                        "richText": "Updated Figma node parsing to include <code>cornerSmoothing</code> and <code>itemReverseZIndex</code>."
+                     },
+                     {
+                        "description": "Reworked UGUI auto-layout handling for reverse draw order, absolute-positioned children, layout grow, wrap sizing, background-like children, and Figma SCALE constraints.",
+                        "richText": "Reworked <code>UGUI</code> auto-layout handling for reverse draw order, absolute-positioned children, layout grow, wrap sizing, background-like children, and Figma <code>SCALE</code> constraints."
+                     },
+                     {
+                        "description": "Improved generated/downloaded sprite reuse by selecting the largest representative sprite source and validating existing sprite dimensions before reuse.",
+                        "richText": "Improved generated/downloaded sprite reuse by selecting the largest representative sprite source and validating existing sprite dimensions before reuse."
+                     },
+                     {
+                        "description": "Updated sprite colorization to handle generated sprites, avoid recoloring the same asset path multiple times, and reimport updated assets.",
+                        "richText": "Updated sprite colorization to handle generated sprites, avoid recoloring the same asset path multiple times, and reimport updated assets."
+                     },
+                     {
+                        "description": "Reworked UniText styling so bold/italic modifiers are applied only when the resolved font face needs them, links handle interactivity separately from visual styling, and gradients can come from graphic fill data.",
+                        "richText": "Reworked <code>UniText</code> styling so bold/italic modifiers are applied only when the resolved font face needs them, links handle interactivity separately from visual styling, and gradients can come from graphic fill data."
+                     },
+                     {
+                        "description": "Updated ImageLinear material/shader alpha handling with configurable alpha gamma and dithering.",
+                        "richText": "Updated <code>ImageLinear</code> material/shader alpha handling with configurable alpha gamma and dithering."
+                     }
+                  ],
+                  "fixed": [
+                     {
+                        "description": "Sprite duplicate cleanup so imports can pause, resolve default or keep-all choices programmatically, close the duplicate finder when resolved, and redraw objects whose sprite path changed.",
+                        "richText": "Sprite duplicate cleanup so imports can pause, resolve default or keep-all choices programmatically, close the duplicate finder when resolved, and redraw objects whose sprite path changed."
+                     },
+                     {
+                        "description": "Sprite transform behavior for clipped render bounds, clip-content parents, and sprite render bounds that should not expand layout.",
+                        "richText": "Sprite transform behavior for clipped render bounds, clip-content parents, and sprite render bounds that should not expand layout."
+                     },
+                     {
+                        "description": "AutoSlice9 border calculation for rounded vector rectangles, effects, and solid fill/stroke cases.",
+                        "richText": "<code>AutoSlice9</code> border calculation for rounded vector rectangles, effects, and solid fill/stroke cases."
+                     },
+                     {
+                        "description": "Opaque generated PNGs with alpha rounding artifacts by normalizing near-opaque alpha values.",
+                        "richText": "Opaque generated <code>PNG</code>s with alpha rounding artifacts by normalizing near-opaque alpha values."
+                     },
+                     {
+                        "description": "Linear image material assignment so it is used only for sprites that actually contain transparency.",
+                        "richText": "Linear image material assignment so it is used only for sprites that actually contain transparency."
+                     },
+                     {
+                        "description": "Font matching and download naming for Google Fonts subsets, TMP, UITK, and UniText font generation.",
+                        "richText": "Font matching and download naming for <code>Google Fonts</code> subsets, <code>TMP</code>, <code>UITK</code>, and <code>UniText</code> font generation."
+                     },
+                     {
+                        "description": "Settings window refresh by updating serialized data and clamping the selected tab index.",
+                        "richText": "Settings window refresh by updating serialized data and clamping the selected tab index."
+                     }
+                  ],
+                  "removed": [
+                     {
+                        "description": "The legacy FcuInfoTool MCP tool and asset.",
+                        "richText": "The legacy <code>FcuInfoTool</code> <code>MCP</code> tool and asset."
+                     }
+                  ]
+               }
             }
          ]
       },
@@ -2407,22 +2507,19 @@
                "version": "1.0.1",
                "versionType": 1,
                "releaseDate": "Feb 23, 2024",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.2",
                "versionType": 1,
                "releaseDate": "Mar 05, 2024",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.3",
                "versionType": 1,
                "releaseDate": "Mar 06, 2024",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.4",
@@ -2488,8 +2585,7 @@
                "version": "1.0.7",
                "versionType": 2,
                "releaseDate": "Jun 1, 2024",
-               "changelog": {
-               }
+               "changelog": {}
             },
             {
                "version": "1.0.8",
