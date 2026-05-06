@@ -5,7 +5,7 @@
          "assetType": 1,
          "oldVersionDaysCount": 28,
          "developerMessage": {
-            "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you no longer need to buy a Figma Pro subscription to extend the limits.\n\nYou can use the auxiliary tool \"Offline Converter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) to solve this problem.\n\nThe scheme is as follows:\n\n1. Create a ZIP copy of the Figma project through \"Offline Converter\".\n2. Import this ZIP archive through Figma Converter (you need to set the import mode to \"Zip\").\n3. Import the project without running into limits.\n\nYou can create a ZIP copy of the project an unlimited number of times.\n\nIf you already have a Figma Pro subscription and you do not plan to cancel it, you should not have the 429 error if the imported project is located in a Pro team.",
+            "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you no longer need to buy a Figma Pro subscription to extend the limits.\n\nYou can use the auxiliary tool \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) to solve this problem.\n\nThe scheme is as follows:\n\n1. Create a ZIP copy of the Figma project through \"ZIP Project Exporter\".\n2. Import this ZIP archive through Figma Converter (you need to set the import mode to \"Zip\").\n3. Import the project without running into limits.\n\nYou can create a ZIP copy of the project an unlimited number of times.\n\nIf you already have a Figma Pro subscription and you do not plan to cancel it, you should not have the 429 error if the imported project is located in a Pro team.",
             "type": 2,
             "links": [
                {
@@ -2292,12 +2292,12 @@
                "version": "7.2.0",
                "versionType": 0,
                "releaseDate": "May 05, 2026",
-               "description": "ADDED:\n• Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error 429 will no longer occur. Link to the Offline Converter tool: (https://shorturl.at/BfvcM)\n• New MCP tools that will make your import process even more automated. The GetSyncHelperReasonsTool will help your Agent understand why a particular component was imported in that specific way.\n• D.A. Outline support for drawable strokes on supported UGUI image components.\n• UniText font-stack generation, mixed-font run handling, and generated combined UniText font stacks.\n• Main Settings controls for SyncHelper cleanup after import and the temporarily disabled LayoutUpdater option.\n• Ability to copy text from the custom HelpBox that can be seen in some parts of the asset interface.\n\nCHANGED:\n• Updated the GitBook manual: added a section on working with the Offline Converter.\n• Renamed the root asset folder from \"D.A. Assets\" to \"DA-Assets\".\n• Reworked sprite identity hashing into separate object and render hashes for more accurate sprite deduplication.\n• Updated Figma node parsing to include cornerSmoothing and itemReverseZIndex.\n• Reworked UGUI auto-layout handling for reverse draw order, absolute-positioned children, layout grow, wrap sizing, background-like children, and Figma SCALE constraints.\n• Improved generated/downloaded sprite reuse by selecting the largest representative sprite source and validating existing sprite dimensions before reuse.\n• Updated sprite colorization to handle generated sprites, avoid recoloring the same asset path multiple times, and reimport updated assets.\n• Reworked UniText styling so bold/italic modifiers are applied only when the resolved font face needs them, links handle interactivity separately from visual styling, and gradients can come from graphic fill data.\n• Updated ImageLinear material/shader alpha handling with configurable alpha gamma and dithering.\n\nFIXED:\n• Sprite duplicate cleanup so imports can pause, resolve default or keep-all choices programmatically, close the duplicate finder when resolved, and redraw objects whose sprite path changed.\n• Sprite transform behavior for clipped render bounds, clip-content parents, and sprite render bounds that should not expand layout.\n• AutoSlice9 border calculation for rounded vector rectangles, effects, and solid fill/stroke cases.\n• Opaque generated PNGs with alpha rounding artifacts by normalizing near-opaque alpha values.\n• Linear image material assignment so it is used only for sprites that actually contain transparency.\n• Font matching and download naming for Google Fonts subsets, TMP, UITK, and UniText font generation.\n• Settings window refresh by updating serialized data and clamping the selected tab index.\n\nREMOVED:\n• The legacy FcuInfoTool MCP tool and asset.",
+               "description": "ADDED:\n• Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error 429 will no longer occur. Link to the ZIP Project Exporter tool: (https://shorturl.at/BfvcM)\n• New MCP tools that will make your import process even more automated. The GetSyncHelperReasonsTool will help your Agent understand why a particular component was imported in that specific way.\n• D.A. Outline support for drawable strokes on supported UGUI image components.\n• UniText font-stack generation, mixed-font run handling, and generated combined UniText font stacks.\n• Main Settings controls for SyncHelper cleanup after import and the temporarily disabled LayoutUpdater option.\n• Ability to copy text from the custom HelpBox that can be seen in some parts of the asset interface.\n\nCHANGED:\n• Updated the GitBook manual: added a section on working with the ZIP Project Exporter.\n• Renamed the root asset folder from \"D.A. Assets\" to \"DA-Assets\".\n• Reworked sprite identity hashing into separate object and render hashes for more accurate sprite deduplication.\n• Updated Figma node parsing to include cornerSmoothing and itemReverseZIndex.\n• Reworked UGUI auto-layout handling for reverse draw order, absolute-positioned children, layout grow, wrap sizing, background-like children, and Figma SCALE constraints.\n• Improved generated/downloaded sprite reuse by selecting the largest representative sprite source and validating existing sprite dimensions before reuse.\n• Updated sprite colorization to handle generated sprites, avoid recoloring the same asset path multiple times, and reimport updated assets.\n• Reworked UniText styling so bold/italic modifiers are applied only when the resolved font face needs them, links handle interactivity separately from visual styling, and gradients can come from graphic fill data.\n• Updated ImageLinear material/shader alpha handling with configurable alpha gamma and dithering.\n\nFIXED:\n• Sprite duplicate cleanup so imports can pause, resolve default or keep-all choices programmatically, close the duplicate finder when resolved, and redraw objects whose sprite path changed.\n• Sprite transform behavior for clipped render bounds, clip-content parents, and sprite render bounds that should not expand layout.\n• AutoSlice9 border calculation for rounded vector rectangles, effects, and solid fill/stroke cases.\n• Opaque generated PNGs with alpha rounding artifacts by normalizing near-opaque alpha values.\n• Linear image material assignment so it is used only for sprites that actually contain transparency.\n• Font matching and download naming for Google Fonts subsets, TMP, UITK, and UniText font generation.\n• Settings window refresh by updating serialized data and clamping the selected tab index.\n\nREMOVED:\n• The legacy FcuInfoTool MCP tool and asset.",
                "changelog": {
                   "added": [
                      {
-                        "description": "Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error 429 will no longer occur. Link to the Offline Converter tool: (https://shorturl.at/BfvcM).",
-                        "richText": "Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error <code>429</code> will no longer occur. Link to the Offline Converter tool: (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>).",
+                        "description": "Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error 429 will no longer occur. Link to the ZIP Project Exporter tool: (https://shorturl.at/BfvcM).",
+                        "richText": "Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error <code>429</code> will no longer occur. Link to the ZIP Project Exporter tool: (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>).",
                         "links": [
                            {
                               "id": "offlineconverter",
@@ -2328,8 +2328,8 @@
                   ],
                   "changed": [
                      {
-                        "description": "Updated the GitBook manual: added a section on working with the Offline Converter.",
-                        "richText": "Updated the <code>GitBook</code> manual: added a section on working with the <link=\"offlineconverter\"><color=#62A8FF><u>Offline Converter</u></color></link>.",
+                        "description": "Updated the GitBook manual: added a section on working with the ZIP Project Exporter.",
+                        "richText": "Updated the <code>GitBook</code> manual: added a section on working with the <link=\"offlineconverter\"><color=#62A8FF><u>ZIP Project Exporter</u></color></link>.",
                         "links": [
                            {
                               "id": "offlineconverter",
@@ -3147,6 +3147,56 @@
                         "description": "The foundation for localizing the asset's interface into multiple languages has been laid and will be completed in the next update."
                      }
                   ]
+               }
+            }
+         ]
+      },
+      {
+         "name": "ZIP Project Exporter",
+         "assetType": 8,
+         "oldVersionDaysCount": 28,
+         "versions": [
+            {
+               "version": "4",
+               "versionType": 0,
+               "releaseDate": "May 6, 2026",
+               "changelog": {
+                  "changed": [
+                     {
+                        "description": "The plugin design has been updated."
+                     }
+                  ]
+               }
+            },
+            {
+               "version": "3",
+               "versionType": 0,
+               "releaseDate": "Apr 30, 2026",
+               "changelog": {
+                  "changed": []
+               }
+            },
+            {
+               "version": "2",
+               "versionType": 0,
+               "releaseDate": "Apr 22, 2026",
+               "changelog": {
+                  "fixed": [
+                     {
+                        "description": "Bugs fixed."
+                     },
+                     {
+                        "description": "License management fixed."
+                     }
+                  ]
+               }
+            },
+            {
+               "version": "1",
+               "versionType": 0,
+               "releaseDate": "Mar 31, 2026",
+               "changelog": {
+                  "changed": []
                }
             }
          ]
