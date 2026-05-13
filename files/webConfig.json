@@ -3220,6 +3220,18 @@
                      }
                   ]
                }
+            },
+            {
+               "version": "6",
+               "versionType": 0,
+               "releaseDate": "May 11, 2026",
+               "changelog": {
+                  "added": [
+                     {
+                        "description": "Display of Figma User ID in the settings."
+                     }
+                  ]
+               }
             }
          ]
       }
