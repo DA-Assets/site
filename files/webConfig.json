@@ -2539,6 +2539,11 @@
                      {
                         "description": "CreateMinimal9Slice could reach invalid zero-sized Texture2D creation paths."
                      }
+                  ],
+                  "notes": [
+                     {
+                        "description": "Delete the DA-Assets folder before updating to this version."
+                     }
                   ]
                }
             }
