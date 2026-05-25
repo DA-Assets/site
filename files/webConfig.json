@@ -6,6 +6,44 @@
          "oldVersionDaysCount": 28,
          "developerMessage": {
             "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you no longer need to buy a Figma Pro subscription to extend the limits.\n\nYou can use the auxiliary tool \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) to solve this problem.\n\nThe scheme is as follows:\n\n1. Create a ZIP copy of the Figma project through \"ZIP Project Exporter\".\n2. Import this ZIP archive through Figma Converter (you need to set the import mode to \"Zip\").\n3. Import the project without running into limits.\n\nYou can create a ZIP copy of the project an unlimited number of times.\n\nIf you already have a Figma Pro subscription and you do not plan to cancel it, you should not have the 429 error if the imported project is located in a Pro team.",
+            "localizedTexts": [
+               {
+                  "language": "en",
+                  "text": "Recently, Figma made changes to its REST API.\n\nIf you get a \"429 TooManyRequests\" error when importing a layout, you no longer need to buy a Figma Pro subscription to extend the limits.\n\nYou can use the auxiliary tool \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) to solve this problem.\n\nThe scheme is as follows:\n\n1. Create a ZIP copy of the Figma project through \"ZIP Project Exporter\".\n2. Import this ZIP archive through Figma Converter (you need to set the import mode to \"Zip\").\n3. Import the project without running into limits.\n\nYou can create a ZIP copy of the project an unlimited number of times.\n\nIf you already have a Figma Pro subscription and you do not plan to cancel it, you should not have the 429 error if the imported project is located in a Pro team."
+               },
+               {
+                  "language": "ja",
+                  "text": "最近、Figma は REST API に変更を加えました。\n\nレイアウトのインポート時に \"429 TooManyRequests\" エラーが発生する場合、制限を拡張するために Figma Pro サブスクリプションを購入する必要はなくなりました。\n\nこの問題を解決するには、補助ツール \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) を使用できます。\n\n手順は次のとおりです:\n\n1. \"ZIP Project Exporter\" を使用して Figma プロジェクトの ZIP コピーを作成します。\n2. Figma Converter でこの ZIP アーカイブをインポートします (インポートモードを \"Zip\" に設定する必要があります)。\n3. 制限に達することなくプロジェクトをインポートします。\n\nプロジェクトの ZIP コピーは何度でも作成できます。\n\nすでに Figma Pro サブスクリプションをお持ちで、それを解約する予定がない場合、インポートするプロジェクトが Pro チーム内にある限り 429 エラーは発生しないはずです。"
+               },
+               {
+                  "language": "ko",
+                  "text": "최근 Figma가 REST API를 변경했습니다.\n\n레이아웃을 가져올 때 \"429 TooManyRequests\" 오류가 발생하면, 제한을 늘리기 위해 더 이상 Figma Pro 구독을 구매할 필요가 없습니다.\n\n이 문제를 해결하려면 보조 도구 \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>)를 사용할 수 있습니다.\n\n절차는 다음과 같습니다:\n\n1. \"ZIP Project Exporter\"를 통해 Figma 프로젝트의 ZIP 복사본을 만듭니다.\n2. Figma Converter에서 이 ZIP 아카이브를 가져옵니다(가져오기 모드를 \"Zip\"으로 설정해야 합니다).\n3. 제한에 걸리지 않고 프로젝트를 가져옵니다.\n\n프로젝트의 ZIP 복사본은 무제한으로 만들 수 있습니다.\n\n이미 Figma Pro 구독이 있고 취소할 계획이 없다면, 가져오는 프로젝트가 Pro 팀에 있는 경우 429 오류가 발생하지 않아야 합니다."
+               },
+               {
+                  "language": "zh",
+                  "text": "最近，Figma 对其 REST API 进行了更改。\n\n如果在导入布局时遇到 \"429 TooManyRequests\" 错误，你不再需要购买 Figma Pro 订阅来提高限制。\n\n你可以使用辅助工具 \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) 来解决此问题。\n\n流程如下:\n\n1. 通过 \"ZIP Project Exporter\" 创建 Figma 项目的 ZIP 副本。\n2. 通过 Figma Converter 导入此 ZIP 存档（需要将导入模式设置为 \"Zip\"）。\n3. 导入项目时不会再触发限制。\n\n你可以无限次数创建项目的 ZIP 副本。\n\n如果你已经拥有 Figma Pro 订阅并且不打算取消，只要导入的项目位于 Pro 团队中，就不应该出现 429 错误。"
+               },
+               {
+                  "language": "es",
+                  "text": "Recientemente, Figma hizo cambios en su REST API.\n\nSi aparece el error \"429 TooManyRequests\" al importar un layout, ya no necesitas comprar una suscripción a Figma Pro para ampliar los límites.\n\nPuedes usar la herramienta auxiliar \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) para resolver este problema.\n\nEl proceso es el siguiente:\n\n1. Crea una copia ZIP del proyecto de Figma mediante \"ZIP Project Exporter\".\n2. Importa este archivo ZIP mediante Figma Converter (debes establecer el modo de importación en \"Zip\").\n3. Importa el proyecto sin alcanzar los límites.\n\nPuedes crear una copia ZIP del proyecto un número ilimitado de veces.\n\nSi ya tienes una suscripción a Figma Pro y no planeas cancelarla, no deberías recibir el error 429 si el proyecto importado está ubicado en un equipo Pro."
+               },
+               {
+                  "language": "de",
+                  "text": "Vor kurzem hat Figma Änderungen an seiner REST API vorgenommen.\n\nWenn beim Importieren eines Layouts der Fehler \"429 TooManyRequests\" auftritt, musst du kein Figma Pro-Abonnement mehr kaufen, um die Limits zu erhöhen.\n\nDu kannst das Hilfstool \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) verwenden, um dieses Problem zu lösen.\n\nDer Ablauf ist wie folgt:\n\n1. Erstelle mit \"ZIP Project Exporter\" eine ZIP-Kopie des Figma-Projekts.\n2. Importiere dieses ZIP-Archiv mit Figma Converter (der Importmodus muss auf \"Zip\" gesetzt werden).\n3. Importiere das Projekt, ohne an Limits zu stoßen.\n\nDu kannst beliebig viele ZIP-Kopien des Projekts erstellen.\n\nWenn du bereits ein Figma Pro-Abonnement hast und es nicht kündigen möchtest, sollte der Fehler 429 nicht auftreten, wenn sich das importierte Projekt in einem Pro-Team befindet."
+               },
+               {
+                  "language": "fr",
+                  "text": "Récemment, Figma a apporté des modifications à son API REST.\n\nSi vous obtenez une erreur \"429 TooManyRequests\" lors de l'importation d'un layout, vous n'avez plus besoin d'acheter un abonnement Figma Pro pour augmenter les limites.\n\nVous pouvez utiliser l'outil auxiliaire \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) pour résoudre ce problème.\n\nLe fonctionnement est le suivant:\n\n1. Créez une copie ZIP du projet Figma avec \"ZIP Project Exporter\".\n2. Importez cette archive ZIP avec Figma Converter (vous devez définir le mode d'importation sur \"Zip\").\n3. Importez le projet sans atteindre les limites.\n\nVous pouvez créer une copie ZIP du projet un nombre illimité de fois.\n\nSi vous avez déjà un abonnement Figma Pro et que vous ne prévoyez pas de l'annuler, vous ne devriez pas avoir l'erreur 429 si le projet importé se trouve dans une équipe Pro."
+               },
+               {
+                  "language": "id",
+                  "text": "Baru-baru ini, Figma membuat perubahan pada REST API-nya.\n\nJika kamu mendapatkan error \"429 TooManyRequests\" saat mengimpor layout, kamu tidak perlu lagi membeli langganan Figma Pro untuk menaikkan batas.\n\nKamu dapat menggunakan alat bantu \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) untuk menyelesaikan masalah ini.\n\nAlurnya sebagai berikut:\n\n1. Buat salinan ZIP proyek Figma melalui \"ZIP Project Exporter\".\n2. Impor arsip ZIP ini melalui Figma Converter (mode impor harus diatur ke \"Zip\").\n3. Impor proyek tanpa terkena batas.\n\nKamu dapat membuat salinan ZIP proyek sebanyak yang kamu mau.\n\nJika kamu sudah memiliki langganan Figma Pro dan tidak berencana membatalkannya, error 429 seharusnya tidak terjadi jika proyek yang diimpor berada di tim Pro."
+               },
+               {
+                  "language": "hi",
+                  "text": "हाल ही में, Figma ने अपने REST API में बदलाव किए हैं।\n\nयदि layout import करते समय आपको \"429 TooManyRequests\" error मिलता है, तो limits बढ़ाने के लिए अब आपको Figma Pro subscription खरीदने की आवश्यकता नहीं है।\n\nइस समस्या को हल करने के लिए आप सहायक tool \"ZIP Project Exporter\" (<link=\"offlineconverter\"><color=#62A8FF><u>https://shorturl.at/BfvcM</u></color></link>) का उपयोग कर सकते हैं।\n\nप्रक्रिया इस प्रकार है:\n\n1. \"ZIP Project Exporter\" के माध्यम से Figma project की ZIP copy बनाएं।\n2. इस ZIP archive को Figma Converter के माध्यम से import करें (import mode को \"Zip\" पर set करना होगा)।\n3. limits में फंसे बिना project import करें।\n\nआप project की ZIP copy unlimited बार बना सकते हैं।\n\nयदि आपके पास पहले से Figma Pro subscription है और आप उसे cancel करने की योजना नहीं बना रहे हैं, तो imported project Pro team में होने पर 429 error नहीं आना चाहिए।"
+               }
+            ],
             "type": 2,
             "links": [
                {
@@ -1455,7 +1493,7 @@
                "versionType": 0,
                "releaseDate": "Nov 28, 2024",
                "developerMessage": {
-                  "text": "",
+                  "localizedTexts": [],
                   "type": 2
                },
                "changelog": {
@@ -2407,6 +2445,102 @@
                      }
                   ]
                }
+            },
+            {
+               "version": "7.3.0",
+               "versionType": 2,
+               "releaseDate": "May 15, 2026",
+               "changelog": {}
+            },
+            {
+               "version": "7.4.0",
+               "versionType": 2,
+               "releaseDate": "May 25, 2026",
+               "changelog": {
+                  "added": [
+                     {
+                        "description": "MCP integration: FigmaConverterUnity implements IMcpInstance; the MCP server can now discover and control converter instances."
+                     },
+                     {
+                        "description": "Gradient outlines in UniText: PopulateOutline() now also handles gradient strokes through TryBuildGradientReference() and GlobalSettingsGradientProvider."
+                     },
+                     {
+                        "description": "Direct UniText font assignment: ResolvePrimaryFont() assigns text.Font directly; FontModifier is created only as a fallback."
+                     },
+                     {
+                        "description": "SpriteSizeConstants in DA-Shared: constants for allowed sprite sizes instead of hardcoded values in TextureExtensions."
+                     }
+                  ],
+                  "changed": [
+                     {
+                        "description": "#if UNITY_EDITOR guards were added for 200+ Runtime scripts to prevent compilation in runtime assemblies."
+                     },
+                     {
+                        "description": "#if DA_UI_COMPONENTS_EXISTS guards now wrap SpriteOutline in ImageDrawer and SpriteRendererDrawer."
+                     },
+                     {
+                        "description": "Added a null check for FcuConfig.Instance during UITK Converter initialization."
+                     },
+                     {
+                        "description": "OutlineModifier parameter order changed from {weight},{hex} to {hex},{weight}."
+                     },
+                     {
+                        "description": "UniText initialization order changed so SetFont() runs before SetStyle()."
+                     },
+                     {
+                        "description": "ShadowModifier now uses FixedPixelSize = true by default."
+                     },
+                     {
+                        "description": "TextMeshDrawer was refactored into separate methods, with improved lineHeightUnit handling for FONT_SIZE_%."
+                     },
+                     {
+                        "description": "DA-UI-Components package structure changed: FcuButton, FigmaLayoutGrid, SpriteOutline, LayoutGridAlignment, and LayoutGridPattern were moved to DA-UI-Components."
+                     }
+                  ],
+                  "fixed": [
+                     {
+                        "description": "AutoSize in UniText: fixed a recent-version debug bug; the value now comes from UniTextSettings.AutoSize instead of hardcoded false."
+                     },
+                     {
+                        "description": "Race condition when assigning Sprite type: multiple FObject entries with the same SpritePath competed for one TextureImporter, overwriting each other's spritePixelsPerUnit; the Assigning Sprite type process never completed. Now only one representative is processed per SpritePath."
+                     },
+                     {
+                        "description": "Infinite loop in SetImgTypeSprite: replaced while (true) with a for loop and configurable retry limit (SetImgTypeSpriteMaxRetries, default 50). When the limit is exhausted, an error is logged and the call exits cleanly."
+                     }
+                  ],
+                  "removed": [
+                     {
+                        "description": "FcuMcpAutoStarter was removed; auto-start is now centralized in DA-MCP-Server."
+                     },
+                     {
+                        "description": "The MCP server was removed from DA-Shared; the full implementation (14 files) was moved to the separate DA-MCP-Server package."
+                     }
+                  ]
+               }
+            },
+            {
+               "version": "7.4.1",
+               "versionType": 1,
+               "releaseDate": "May 25, 2026",
+               "changelog": {
+                  "fixed": [
+                     {
+                        "description": "UniText vertical trim conversion: leadingTrim is now parsed from imported Figma style data and mapped to UniText Over Edge and Under Edge instead of being inferred from lineHeightUnit or hardcoded."
+                     },
+                     {
+                        "description": "UniText auto-size behavior for text nodes that use Figma cap-height trimming, allowing text to use the available RectTransform height correctly when leadingTrim is provided."
+                     },
+                     {
+                        "description": "AutoSlice9 sprite generation for very small textures where clamped border values could become zero and produce invalid 9-slice data."
+                     },
+                     {
+                        "description": "ManualWhiteColor sprite creation so it no longer attempts to create minimal 9-slice textures when borders are zero or the texture has no stretchable center."
+                     },
+                     {
+                        "description": "CreateMinimal9Slice could reach invalid zero-sized Texture2D creation paths."
+                     }
+                  ]
+               }
             }
          ]
       },
@@ -3229,6 +3363,110 @@
                   "added": [
                      {
                         "description": "Display of Figma User ID in the settings."
+                     }
+                  ]
+               }
+            },
+            {
+               "version": "7",
+               "versionType": 0,
+               "releaseDate": "May 18, 2026",
+               "changelog": {
+                  "added": [
+                     {
+                        "description": "Support for exporting projects larger than 4 GB."
+                     },
+                     {
+                        "description": "Support for changing compression settings."
+                     }
+                  ],
+                  "changed": [
+                     {
+                        "description": "Updated the plugin UI."
+                     }
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "name": "DA-MCP-Server",
+         "assetType": 9,
+         "oldVersionDaysCount": 28,
+         "versions": [
+            {
+               "version": "1.0.0",
+               "versionType": 0,
+               "releaseDate": "May 25, 2026",
+               "changelog": {
+                  "added": [
+                     {
+                        "description": "McpServerBootstrapper prepares the local uv/Python environment in Library/DA-MCP, starts the Python server through uv with a PID file, and supports graceful shutdown."
+                     },
+                     {
+                        "description": "TerminalLauncher starts the local HTTP server in a visible terminal window: Windows cmd start, macOS Terminal .command, or a Linux terminal emulator."
+                     },
+                     {
+                        "description": "McpServerDesiredState stores the desired server state through EditorPrefs for auto-restore."
+                     },
+                     {
+                        "description": "McpTransportAutoRestore auto-restores the server and HTTP connection after a Unity domain reload."
+                     },
+                     {
+                        "description": "McpUi provides shared UITK Server and Clients sections for the control window and McpServerConfig inspector."
+                     },
+                     {
+                        "description": "McpControlWindow is a new EditorWindow with Connect, Clients, Instances, Tools, Resources, and Recent Calls tabs; the Connect tab renders the Server and Clients sections."
+                     },
+                     {
+                        "description": "McpAssetTab adds an inspector for McpServerConfig assets, using the same Server and Clients sections as McpControlWindow."
+                     },
+                     {
+                        "description": "McpLocalization adds localization through McpLocKey and a CSV file."
+                     },
+                     {
+                        "description": "McpConfig adds a global settings ScriptableObject, including Show Server Console Window."
+                     },
+                     {
+                        "description": "McpRegistrySO adds a server configuration registry."
+                     },
+                     {
+                        "description": "SubServerManager dynamically creates per-asset FastMCP sub-servers in the Starlette gateway at /{endpoint_path}/mcp."
+                     },
+                     {
+                        "description": "Edit mode tests were added for McpClientConfigurator."
+                     }
+                  ],
+                  "changed": [
+                     {
+                        "description": "DaMcp* naming was consolidated under Mcp* names: BridgeAutoConnector, ClientConfigurator, ClientRegistry, CodexConfigurator, InstanceRegistry, JsonConfigurator, RecentCalls, ServerHealth, and ServerProcess."
+                     },
+                     {
+                        "description": "McpServerProcess now supports PID files, auto-detection through netstat/wmic, health checks through HttpClient, a 6-hour session timeout, idempotent start, and terminal/hidden launch modes."
+                     },
+                     {
+                        "description": "McpClientConfigurator now supports additional IDE clients."
+                     },
+                     {
+                        "description": "McpCodexConfigurator now supports Codex configuration."
+                     },
+                     {
+                        "description": "When the console window is enabled, uv sync --locked --no-dev runs inside the terminal window before uv run, so a fresh install is visible to the user. In hidden mode, sync remains hidden."
+                     },
+                     {
+                        "description": "The Python server keeps the Starlette gateway for /health, /api/*, and /hub/bridge, while startup banner and startup log now use the FastMCP rich logger; dynamic per-asset MCP endpoints are mounted through FastMCP sub-servers in SubServerManager."
+                     },
+                     {
+                        "description": "Server UI statuses now use text rows: Local Server: Running and Unity Bridge: Connected; manual Connect Unity and Disconnect Unity buttons were removed, and the bridge connects automatically after start or restore."
+                     },
+                     {
+                        "description": "The Configure All Detected Clients button was moved below the Configure and Copy Config buttons."
+                     },
+                     {
+                        "description": "UnityBridgeHub.configure() now accepts sub_manager instead of dynamic_tools and dynamic_resources."
+                     },
+                     {
+                        "description": "Unity bridge naming now uses unity_bridge_hub.py, unity_session_registry.py, UnityBridgeHub, UnitySessionRegistry, and UnityToolBindingService."
                      }
                   ]
                }
