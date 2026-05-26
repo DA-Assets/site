@@ -2330,7 +2330,6 @@
                "version": "7.2.0",
                "versionType": 0,
                "releaseDate": "May 05, 2026",
-               "description": "ADDED:\n• Support for offline import from a ZIP archive. Now, if you don’t have a Figma Pro subscription, you can perform an unlimited number of imports without running into Figma API limits. Error 429 will no longer occur. Link to the ZIP Project Exporter tool: (https://shorturl.at/BfvcM)\n• New MCP tools that will make your import process even more automated. The GetSyncHelperReasonsTool will help your Agent understand why a particular component was imported in that specific way.\n• D.A. Outline support for drawable strokes on supported UGUI image components.\n• UniText font-stack generation, mixed-font run handling, and generated combined UniText font stacks.\n• Main Settings controls for SyncHelper cleanup after import and the temporarily disabled LayoutUpdater option.\n• Ability to copy text from the custom HelpBox that can be seen in some parts of the asset interface.\n\nCHANGED:\n• Updated the GitBook manual: added a section on working with the ZIP Project Exporter.\n• Renamed the root asset folder from \"D.A. Assets\" to \"DA-Assets\".\n• Reworked sprite identity hashing into separate object and render hashes for more accurate sprite deduplication.\n• Updated Figma node parsing to include cornerSmoothing and itemReverseZIndex.\n• Reworked UGUI auto-layout handling for reverse draw order, absolute-positioned children, layout grow, wrap sizing, background-like children, and Figma SCALE constraints.\n• Improved generated/downloaded sprite reuse by selecting the largest representative sprite source and validating existing sprite dimensions before reuse.\n• Updated sprite colorization to handle generated sprites, avoid recoloring the same asset path multiple times, and reimport updated assets.\n• Reworked UniText styling so bold/italic modifiers are applied only when the resolved font face needs them, links handle interactivity separately from visual styling, and gradients can come from graphic fill data.\n• Updated ImageLinear material/shader alpha handling with configurable alpha gamma and dithering.\n\nFIXED:\n• Sprite duplicate cleanup so imports can pause, resolve default or keep-all choices programmatically, close the duplicate finder when resolved, and redraw objects whose sprite path changed.\n• Sprite transform behavior for clipped render bounds, clip-content parents, and sprite render bounds that should not expand layout.\n• AutoSlice9 border calculation for rounded vector rectangles, effects, and solid fill/stroke cases.\n• Opaque generated PNGs with alpha rounding artifacts by normalizing near-opaque alpha values.\n• Linear image material assignment so it is used only for sprites that actually contain transparency.\n• Font matching and download naming for Google Fonts subsets, TMP, UITK, and UniText font generation.\n• Settings window refresh by updating serialized data and clamping the selected tab index.\n\nREMOVED:\n• The legacy FcuInfoTool MCP tool and asset.",
                "changelog": {
                   "added": [
                      {
@@ -2520,7 +2519,7 @@
             },
             {
                "version": "7.4.1",
-               "versionType": 1,
+               "versionType": 2,
                "releaseDate": "May 25, 2026",
                "changelog": {
                   "fixed": [
@@ -2543,6 +2542,38 @@
                   "notes": [
                      {
                         "description": "Delete the DA-Assets folder before updating to this version."
+                     }
+                  ]
+               }
+            },
+            {
+               "version": "7.4.2",
+               "versionType": 1,
+               "releaseDate": "May 27, 2026",
+               "description": "ADDED:\n• Added external dependency structure for layout-related assets.\n• Added asmdef auto-generation support for assets without their own asmdef.\n\nCHANGED:\n• Moved some sprites and prefabs to the \"DA-UI-Components\" folder, which may be required for imported layouts. All dependencies required for correct layout rendering are now located outside of the \"Figma-Converter-for-Unity\" folder. You can now safely exclude the \"Figma-Converter-for-Unity\" folder from builds and remove it after import if desired.\n• The \"Remove SyncHelpers after import\" option is now disabled by default.\n\nFIXED:\n• Dependency Manager issue related to detecting assets without their own asmdef.\n• Prefab creation issue caused by missing SyncHelpers on components.",
+               "changelog": {
+                  "added": [
+                     {
+                        "description": "Added external dependency structure for layout-related assets."
+                     },
+                     {
+                        "description": "Added asmdef auto-generation support for assets without their own asmdef."
+                     }
+                  ],
+                  "changed": [
+                     {
+                        "description": "Moved some sprites and prefabs to the \"DA-UI-Components\" folder, which may be required for imported layouts. All dependencies required for correct layout rendering are now located outside of the \"Figma-Converter-for-Unity\" folder. You can now safely exclude the \"Figma-Converter-for-Unity\" folder from builds and remove it after import if desired."
+                     },
+                     {
+                        "description": "The \"Remove SyncHelpers after import\" option is now disabled by default."
+                     }
+                  ],
+                  "fixed": [
+                     {
+                        "description": "Dependency Manager issue related to detecting assets without their own asmdef."
+                     },
+                     {
+                        "description": "Prefab creation issue caused by missing SyncHelpers on components."
                      }
                   ]
                }
