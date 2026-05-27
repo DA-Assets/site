@@ -2550,30 +2550,19 @@
                "version": "7.4.2",
                "versionType": 1,
                "releaseDate": "May 27, 2026",
-               "description": "ADDED:\n• Added external dependency structure for layout-related assets.\n• Added asmdef auto-generation support for assets without their own asmdef.\n\nCHANGED:\n• Moved some sprites and prefabs to the \"DA-UI-Components\" folder, which may be required for imported layouts. All dependencies required for correct layout rendering are now located outside of the \"Figma-Converter-for-Unity\" folder. You can now safely exclude the \"Figma-Converter-for-Unity\" folder from builds and remove it after import if desired.\n• The \"Remove SyncHelpers after import\" option is now disabled by default.\n\nFIXED:\n• Dependency Manager issue related to detecting assets without their own asmdef.\n• Prefab creation issue caused by missing SyncHelpers on components.",
+               "description": "CHANGED:\n• Moved some sprites and prefabs that may be required for your imported layout to the DA-UI-Components folder. All dependencies that may be required for correct layout display have now been moved from the Figma-Converter-for-Unity folder to external folders, so you can exclude this folder from the build and delete it after import if you want.\n• The Remove SyncHelper after import option is now disabled by default, because the absence of SyncHelpers on components makes prefab creation impossible.\n\nFIXED:\n• Fixed a Dependency Manager issue related to searching for assets that do not have their own asmdef.",
                "changelog": {
-                  "added": [
-                     {
-                        "description": "Added external dependency structure for layout-related assets."
-                     },
-                     {
-                        "description": "Added asmdef auto-generation support for assets without their own asmdef."
-                     }
-                  ],
                   "changed": [
                      {
-                        "description": "Moved some sprites and prefabs to the \"DA-UI-Components\" folder, which may be required for imported layouts. All dependencies required for correct layout rendering are now located outside of the \"Figma-Converter-for-Unity\" folder. You can now safely exclude the \"Figma-Converter-for-Unity\" folder from builds and remove it after import if desired."
+                        "description": "Moved some sprites and prefabs that may be required for your imported layout to the DA-UI-Components folder. All dependencies that may be required for correct layout display have now been moved from the Figma-Converter-for-Unity folder to external folders, so you can exclude this folder from the build and delete it after import if you want."
                      },
                      {
-                        "description": "The \"Remove SyncHelpers after import\" option is now disabled by default."
+                        "description": "The Remove SyncHelper after import option is now disabled by default, because the absence of SyncHelpers on components makes prefab creation impossible."
                      }
                   ],
                   "fixed": [
                      {
-                        "description": "Dependency Manager issue related to detecting assets without their own asmdef."
-                     },
-                     {
-                        "description": "Prefab creation issue caused by missing SyncHelpers on components."
+                        "description": "Fixed a Dependency Manager issue related to searching for assets that do not have their own asmdef."
                      }
                   ]
                }
