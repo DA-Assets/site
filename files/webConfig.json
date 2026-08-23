@@ -2550,7 +2550,6 @@
                "version": "7.4.2",
                "versionType": 1,
                "releaseDate": "May 27, 2026",
-               "description": "CHANGED:\n• Moved some sprites and prefabs that may be required for your imported layout to the DA-UI-Components folder. All dependencies that may be required for correct layout display have now been moved from the Figma-Converter-for-Unity folder to external folders, so you can exclude this folder from the build and delete it after import if you want.\n• The Remove SyncHelper after import option is now disabled by default, because the absence of SyncHelpers on components makes prefab creation impossible.\n\nFIXED:\n• Fixed a Dependency Manager issue related to searching for assets that do not have their own asmdef.",
                "changelog": {
                   "changed": [
                      {
@@ -2563,6 +2562,19 @@
                   "fixed": [
                      {
                         "description": "Fixed a Dependency Manager issue related to searching for assets that do not have their own asmdef."
+                     }
+                  ]
+               }
+            },
+            {
+               "version": "7.5.2",
+               "versionType": 1,
+               "releaseDate": "Aug 23, 2026",
+               "description": "FIXED:\n• Fixed compatibility issues with Unity 6.7.",
+               "changelog": {
+                  "fixed": [
+                     {
+                        "description": "Fixed compatibility issues with Unity 6.7."
                      }
                   ]
                }
